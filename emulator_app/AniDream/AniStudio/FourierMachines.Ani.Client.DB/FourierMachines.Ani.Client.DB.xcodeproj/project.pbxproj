@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45242D2248F48A16977854FD /* Pods_FourierMachines_Ani_Client_DBTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B99C6FE260E11FBFEDAF6B74 /* Pods_FourierMachines_Ani_Client_DBTests.framework */; };
+		B7115C82229CCE410075077C /* Beats_Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7115C81229CCE410075077C /* Beats_Type.swift */; };
+		B7115C8C22A16BDC0075077C /* DataContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7115C8B22A16BDB0075077C /* DataContext.swift */; };
+		B72D0C442023483600CF5E4E /* FourierMachines_Ani_Client_DB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B72D0C3A2023483600CF5E4E /* FourierMachines_Ani_Client_DB.framework */; };
+		B72D0C492023483600CF5E4E /* FourierMachines_Ani_Client_DBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72D0C482023483600CF5E4E /* FourierMachines_Ani_Client_DBTests.swift */; };
+		B72D0C4B2023483600CF5E4E /* FourierMachines_Ani_Client_DB.h in Headers */ = {isa = PBXBuildFile; fileRef = B72D0C3D2023483600CF5E4E /* FourierMachines_Ani_Client_DB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B72D0C5520234C6D00CF5E4E /* DB_Basic_Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72D0C5420234C6D00CF5E4E /* DB_Basic_Operations.swift */; };
+		B72D0C5720234CE100CF5E4E /* DB_Local_Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72D0C5620234CE100CF5E4E /* DB_Local_Store.swift */; };
+		B72D0C5C20234DA000CF5E4E /* Servo_Data_Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72D0C5B20234DA000CF5E4E /* Servo_Data_Type.swift */; };
+		B72D0C5E20234DAE00CF5E4E /* Servo_Calibration_Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72D0C5D20234DAE00CF5E4E /* Servo_Calibration_Type.swift */; };
+		B72D0C6020234DBB00CF5E4E /* Captured_Command_Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72D0C5F20234DBB00CF5E4E /* Captured_Command_Type.swift */; };
+		B72D0C6220234DC800CF5E4E /* Expressions_Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72D0C6120234DC800CF5E4E /* Expressions_Type.swift */; };
+		B72D0C6420234DD500CF5E4E /* ACTS.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72D0C6320234DD500CF5E4E /* ACTS.swift */; };
+		B72D0C6620234E3400CF5E4E /* DB_Table_Columns.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72D0C6520234E3400CF5E4E /* DB_Table_Columns.swift */; };
+		B72D0C6920234F3E00CF5E4E /* Column_Definition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72D0C6820234F3E00CF5E4E /* Column_Definition.swift */; };
+		B769493C2408454F00A28B86 /* CommandStore.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = B769493B240844A200A28B86 /* CommandStore.sqlite */; };
+		B792F349232FDFD500D0D612 /* Track_Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = B792F348232FDFD400D0D612 /* Track_Type.swift */; };
+		B7B5767C22B9DAF100362646 /* FMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7B5767B22B9DAF100362646 /* FMDB.framework */; };
+		B7B7EF69240834A50077104A /* EM_SYNTH.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B7EF68240834A50077104A /* EM_SYNTH.swift */; };
+		B7F2DDA6207BA60D00FFBE76 /* Machine_Position_Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F2DDA5207BA60D00FFBE76 /* Machine_Position_Type.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B72D0C452023483600CF5E4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B72D0C312023483600CF5E4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B72D0C392023483600CF5E4E;
+			remoteInfo = FourierMachines.Ani.Client.DB;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5867A7C454A4830648350C85 /* Pods-FourierMachines.Ani.Client.DB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FourierMachines.Ani.Client.DB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FourierMachines.Ani.Client.DB/Pods-FourierMachines.Ani.Client.DB.debug.xcconfig"; sourceTree = "<group>"; };
+		6D21FE867C9DE8DBE1DA23D0 /* Pods-FourierMachines.Ani.Client.DBTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FourierMachines.Ani.Client.DBTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FourierMachines.Ani.Client.DBTests/Pods-FourierMachines.Ani.Client.DBTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8144F5B6F2F9A17190933401 /* Pods-FourierMachines.Ani.Client.DB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FourierMachines.Ani.Client.DB.release.xcconfig"; path = "Pods/Target Support Files/Pods-FourierMachines.Ani.Client.DB/Pods-FourierMachines.Ani.Client.DB.release.xcconfig"; sourceTree = "<group>"; };
+		B00936A6F02FDCE73276BACD /* Pods-FourierMachines.Ani.Client.DBTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FourierMachines.Ani.Client.DBTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FourierMachines.Ani.Client.DBTests/Pods-FourierMachines.Ani.Client.DBTests.release.xcconfig"; sourceTree = "<group>"; };
+		B1AB23698BC184652728FB8E /* Pods_FourierMachines_Ani_Client_DB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FourierMachines_Ani_Client_DB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7115C81229CCE410075077C /* Beats_Type.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beats_Type.swift; sourceTree = "<group>"; };
+		B7115C8B22A16BDB0075077C /* DataContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataContext.swift; sourceTree = "<group>"; };
+		B72D0C3A2023483600CF5E4E /* FourierMachines_Ani_Client_DB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FourierMachines_Ani_Client_DB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B72D0C3D2023483600CF5E4E /* FourierMachines_Ani_Client_DB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourierMachines_Ani_Client_DB.h; sourceTree = "<group>"; };
+		B72D0C3E2023483600CF5E4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B72D0C432023483600CF5E4E /* FourierMachines.Ani.Client.DBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FourierMachines.Ani.Client.DBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B72D0C482023483600CF5E4E /* FourierMachines_Ani_Client_DBTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourierMachines_Ani_Client_DBTests.swift; sourceTree = "<group>"; };
+		B72D0C4A2023483600CF5E4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B72D0C5420234C6D00CF5E4E /* DB_Basic_Operations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DB_Basic_Operations.swift; sourceTree = "<group>"; };
+		B72D0C5620234CE100CF5E4E /* DB_Local_Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DB_Local_Store.swift; sourceTree = "<group>"; };
+		B72D0C5B20234DA000CF5E4E /* Servo_Data_Type.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Servo_Data_Type.swift; sourceTree = "<group>"; };
+		B72D0C5D20234DAE00CF5E4E /* Servo_Calibration_Type.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Servo_Calibration_Type.swift; sourceTree = "<group>"; };
+		B72D0C5F20234DBB00CF5E4E /* Captured_Command_Type.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Captured_Command_Type.swift; sourceTree = "<group>"; };
+		B72D0C6120234DC800CF5E4E /* Expressions_Type.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expressions_Type.swift; sourceTree = "<group>"; };
+		B72D0C6320234DD500CF5E4E /* ACTS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACTS.swift; sourceTree = "<group>"; };
+		B72D0C6520234E3400CF5E4E /* DB_Table_Columns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DB_Table_Columns.swift; sourceTree = "<group>"; };
+		B72D0C6820234F3E00CF5E4E /* Column_Definition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Column_Definition.swift; sourceTree = "<group>"; };
+		B72D0C6B20234FC800CF5E4E /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B769493B240844A200A28B86 /* CommandStore.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = CommandStore.sqlite; sourceTree = "<group>"; };
+		B792F348232FDFD400D0D612 /* Track_Type.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track_Type.swift; sourceTree = "<group>"; };
+		B7B5767B22B9DAF100362646 /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7B7EF68240834A50077104A /* EM_SYNTH.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EM_SYNTH.swift; sourceTree = "<group>"; };
+		B7F2DDA5207BA60D00FFBE76 /* Machine_Position_Type.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Machine_Position_Type.swift; sourceTree = "<group>"; };
+		B99C6FE260E11FBFEDAF6B74 /* Pods_FourierMachines_Ani_Client_DBTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FourierMachines_Ani_Client_DBTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B72D0C362023483600CF5E4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7B5767C22B9DAF100362646 /* FMDB.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B72D0C402023483600CF5E4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B72D0C442023483600CF5E4E /* FourierMachines_Ani_Client_DB.framework in Frameworks */,
+				45242D2248F48A16977854FD /* Pods_FourierMachines_Ani_Client_DBTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B72D0C302023483600CF5E4E = {
+			isa = PBXGroup;
+			children = (
+				B72D0C3C2023483600CF5E4E /* FourierMachines.Ani.Client.DB */,
+				B72D0C472023483600CF5E4E /* FourierMachines.Ani.Client.DBTests */,
+				B72D0C3B2023483600CF5E4E /* Products */,
+				BA0B75DFE70DAAA9893C5E60 /* Pods */,
+				CE46430E8D829B3652122D69 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B72D0C3B2023483600CF5E4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B72D0C3A2023483600CF5E4E /* FourierMachines_Ani_Client_DB.framework */,
+				B72D0C432023483600CF5E4E /* FourierMachines.Ani.Client.DBTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B72D0C3C2023483600CF5E4E /* FourierMachines.Ani.Client.DB */ = {
+			isa = PBXGroup;
+			children = (
+				B72D0C5820234CEB00CF5E4E /* DataTypes */,
+				B72D0C3D2023483600CF5E4E /* FourierMachines_Ani_Client_DB.h */,
+				B72D0C3E2023483600CF5E4E /* Info.plist */,
+				B72D0C5420234C6D00CF5E4E /* DB_Basic_Operations.swift */,
+				B769493B240844A200A28B86 /* CommandStore.sqlite */,
+				B72D0C5620234CE100CF5E4E /* DB_Local_Store.swift */,
+			);
+			path = FourierMachines.Ani.Client.DB;
+			sourceTree = "<group>";
+		};
+		B72D0C472023483600CF5E4E /* FourierMachines.Ani.Client.DBTests */ = {
+			isa = PBXGroup;
+			children = (
+				B72D0C482023483600CF5E4E /* FourierMachines_Ani_Client_DBTests.swift */,
+				B72D0C4A2023483600CF5E4E /* Info.plist */,
+			);
+			path = FourierMachines.Ani.Client.DBTests;
+			sourceTree = "<group>";
+		};
+		B72D0C5820234CEB00CF5E4E /* DataTypes */ = {
+			isa = PBXGroup;
+			children = (
+				B72D0C6720234E5300CF5E4E /* Constants */,
+				B792F348232FDFD400D0D612 /* Track_Type.swift */,
+				B7115C81229CCE410075077C /* Beats_Type.swift */,
+				B72D0C5B20234DA000CF5E4E /* Servo_Data_Type.swift */,
+				B7F2DDA5207BA60D00FFBE76 /* Machine_Position_Type.swift */,
+				B72D0C5D20234DAE00CF5E4E /* Servo_Calibration_Type.swift */,
+				B72D0C5F20234DBB00CF5E4E /* Captured_Command_Type.swift */,
+				B72D0C6120234DC800CF5E4E /* Expressions_Type.swift */,
+				B72D0C6320234DD500CF5E4E /* ACTS.swift */,
+				B72D0C6820234F3E00CF5E4E /* Column_Definition.swift */,
+				B7115C8B22A16BDB0075077C /* DataContext.swift */,
+				B7B7EF68240834A50077104A /* EM_SYNTH.swift */,
+			);
+			path = DataTypes;
+			sourceTree = "<group>";
+		};
+		B72D0C6720234E5300CF5E4E /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				B72D0C6520234E3400CF5E4E /* DB_Table_Columns.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		BA0B75DFE70DAAA9893C5E60 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5867A7C454A4830648350C85 /* Pods-FourierMachines.Ani.Client.DB.debug.xcconfig */,
+				8144F5B6F2F9A17190933401 /* Pods-FourierMachines.Ani.Client.DB.release.xcconfig */,
+				6D21FE867C9DE8DBE1DA23D0 /* Pods-FourierMachines.Ani.Client.DBTests.debug.xcconfig */,
+				B00936A6F02FDCE73276BACD /* Pods-FourierMachines.Ani.Client.DBTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CE46430E8D829B3652122D69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7B5767B22B9DAF100362646 /* FMDB.framework */,
+				B72D0C6B20234FC800CF5E4E /* FMDB.framework */,
+				B1AB23698BC184652728FB8E /* Pods_FourierMachines_Ani_Client_DB.framework */,
+				B99C6FE260E11FBFEDAF6B74 /* Pods_FourierMachines_Ani_Client_DBTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B72D0C372023483600CF5E4E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B72D0C4B2023483600CF5E4E /* FourierMachines_Ani_Client_DB.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B72D0C392023483600CF5E4E /* FourierMachines.Ani.Client.DB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B72D0C4E2023483600CF5E4E /* Build configuration list for PBXNativeTarget "FourierMachines.Ani.Client.DB" */;
+			buildPhases = (
+				4E512A692CD5739D05F99A50 /* [CP] Check Pods Manifest.lock */,
+				B72D0C352023483600CF5E4E /* Sources */,
+				B72D0C362023483600CF5E4E /* Frameworks */,
+				B72D0C372023483600CF5E4E /* Headers */,
+				B72D0C382023483600CF5E4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FourierMachines.Ani.Client.DB;
+			productName = FourierMachines.Ani.Client.DB;
+			productReference = B72D0C3A2023483600CF5E4E /* FourierMachines_Ani_Client_DB.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B72D0C422023483600CF5E4E /* FourierMachines.Ani.Client.DBTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B72D0C512023483600CF5E4E /* Build configuration list for PBXNativeTarget "FourierMachines.Ani.Client.DBTests" */;
+			buildPhases = (
+				BE294D71FBF72F83596B86D7 /* [CP] Check Pods Manifest.lock */,
+				B72D0C3F2023483600CF5E4E /* Sources */,
+				B72D0C402023483600CF5E4E /* Frameworks */,
+				B72D0C412023483600CF5E4E /* Resources */,
+				DD6DEEC05423734A4131D4FC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B72D0C462023483600CF5E4E /* PBXTargetDependency */,
+			);
+			name = FourierMachines.Ani.Client.DBTests;
+			productName = FourierMachines.Ani.Client.DBTests;
+			productReference = B72D0C432023483600CF5E4E /* FourierMachines.Ani.Client.DBTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B72D0C312023483600CF5E4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Tej Kiran";
+				TargetAttributes = {
+					B72D0C392023483600CF5E4E = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1020;
+						ProvisioningStyle = Automatic;
+					};
+					B72D0C422023483600CF5E4E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B72D0C342023483600CF5E4E /* Build configuration list for PBXProject "FourierMachines.Ani.Client.DB" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B72D0C302023483600CF5E4E;
+			productRefGroup = B72D0C3B2023483600CF5E4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B72D0C392023483600CF5E4E /* FourierMachines.Ani.Client.DB */,
+				B72D0C422023483600CF5E4E /* FourierMachines.Ani.Client.DBTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B72D0C382023483600CF5E4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B769493C2408454F00A28B86 /* CommandStore.sqlite in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B72D0C412023483600CF5E4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E512A692CD5739D05F99A50 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FourierMachines.Ani.Client.DB-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE294D71FBF72F83596B86D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FourierMachines.Ani.Client.DBTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD6DEEC05423734A4131D4FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FourierMachines.Ani.Client.DBTests/Pods-FourierMachines.Ani.Client.DBTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FourierMachines.Ani.Client.DBTests/Pods-FourierMachines.Ani.Client.DBTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B72D0C352023483600CF5E4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B72D0C5520234C6D00CF5E4E /* DB_Basic_Operations.swift in Sources */,
+				B72D0C6920234F3E00CF5E4E /* Column_Definition.swift in Sources */,
+				B7F2DDA6207BA60D00FFBE76 /* Machine_Position_Type.swift in Sources */,
+				B72D0C5720234CE100CF5E4E /* DB_Local_Store.swift in Sources */,
+				B72D0C5E20234DAE00CF5E4E /* Servo_Calibration_Type.swift in Sources */,
+				B7115C8C22A16BDC0075077C /* DataContext.swift in Sources */,
+				B7B7EF69240834A50077104A /* EM_SYNTH.swift in Sources */,
+				B72D0C6220234DC800CF5E4E /* Expressions_Type.swift in Sources */,
+				B72D0C6020234DBB00CF5E4E /* Captured_Command_Type.swift in Sources */,
+				B7115C82229CCE410075077C /* Beats_Type.swift in Sources */,
+				B792F349232FDFD500D0D612 /* Track_Type.swift in Sources */,
+				B72D0C6420234DD500CF5E4E /* ACTS.swift in Sources */,
+				B72D0C6620234E3400CF5E4E /* DB_Table_Columns.swift in Sources */,
+				B72D0C5C20234DA000CF5E4E /* Servo_Data_Type.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B72D0C3F2023483600CF5E4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B72D0C492023483600CF5E4E /* FourierMachines_Ani_Client_DBTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B72D0C462023483600CF5E4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B72D0C392023483600CF5E4E /* FourierMachines.Ani.Client.DB */;
+			targetProxy = B72D0C452023483600CF5E4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B72D0C4C2023483600CF5E4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B72D0C4D2023483600CF5E4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B72D0C4F2023483600CF5E4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5867A7C454A4830648350C85 /* Pods-FourierMachines.Ani.Client.DB.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2WTB6PH23C;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FourierMachines.Ani.Client.DB/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FourierMachines-Ani-Client-DB";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B72D0C502023483600CF5E4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8144F5B6F2F9A17190933401 /* Pods-FourierMachines.Ani.Client.DB.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2WTB6PH23C;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FourierMachines.Ani.Client.DB/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FourierMachines-Ani-Client-DB";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B72D0C522023483600CF5E4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D21FE867C9DE8DBE1DA23D0 /* Pods-FourierMachines.Ani.Client.DBTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2WTB6PH23C;
+				INFOPLIST_FILE = FourierMachines.Ani.Client.DBTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FourierMachines.FourierMachines-Ani-Client-DBTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B72D0C532023483600CF5E4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B00936A6F02FDCE73276BACD /* Pods-FourierMachines.Ani.Client.DBTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2WTB6PH23C;
+				INFOPLIST_FILE = FourierMachines.Ani.Client.DBTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FourierMachines.FourierMachines-Ani-Client-DBTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B72D0C342023483600CF5E4E /* Build configuration list for PBXProject "FourierMachines.Ani.Client.DB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B72D0C4C2023483600CF5E4E /* Debug */,
+				B72D0C4D2023483600CF5E4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B72D0C4E2023483600CF5E4E /* Build configuration list for PBXNativeTarget "FourierMachines.Ani.Client.DB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B72D0C4F2023483600CF5E4E /* Debug */,
+				B72D0C502023483600CF5E4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B72D0C512023483600CF5E4E /* Build configuration list for PBXNativeTarget "FourierMachines.Ani.Client.DBTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B72D0C522023483600CF5E4E /* Debug */,
+				B72D0C532023483600CF5E4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B72D0C312023483600CF5E4E /* Project object */;
+}

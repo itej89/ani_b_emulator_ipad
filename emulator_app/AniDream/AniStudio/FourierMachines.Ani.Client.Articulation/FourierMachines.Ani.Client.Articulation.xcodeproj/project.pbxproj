@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B760227620C3C89700281FD0 /* ArticulationStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = B760227520C3C89700281FD0 /* ArticulationStates.swift */; };
+		B7B87853206E8F1F00FE457B /* FourierMachines_Ani_Client_Articulation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7B87849206E8F1F00FE457B /* FourierMachines_Ani_Client_Articulation.framework */; };
+		B7B87858206E8F1F00FE457B /* FourierMachines_Ani_Client_ArticulationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B87857206E8F1F00FE457B /* FourierMachines_Ani_Client_ArticulationTests.swift */; };
+		B7B8785A206E8F1F00FE457B /* FourierMachines_Ani_Client_Articulation.h in Headers */ = {isa = PBXBuildFile; fileRef = B7B8784C206E8F1F00FE457B /* FourierMachines_Ani_Client_Articulation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7B87867206E915B00FE457B /* SpeexT.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B87866206E915B00FE457B /* SpeexT.swift */; };
+		B7B87869206E916B00FE457B /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B87868206E916B00FE457B /* SoundPlayer.swift */; };
+		B7B8786B206E918900FE457B /* Synthesizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B8786A206E918900FE457B /* Synthesizer.swift */; };
+		B7B8786D206E920300FE457B /* SpeexTDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B8786C206E920300FE457B /* SpeexTDelegates.swift */; };
+		B7B87872206FA0F200FE457B /* LISTENING_STATES.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B87871206FA0F200FE457B /* LISTENING_STATES.swift */; };
+		B7B87875206FA15500FE457B /* AudioContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B87874206FA15500FE457B /* AudioContext.swift */; };
+		B7B87878206FA30500FE457B /* ArticulationConvey.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B87877206FA30500FE457B /* ArticulationConvey.swift */; };
+		B7B8787A206FA6FF00FE457B /* ArticulationAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B87879206FA6FF00FE457B /* ArticulationAccess.swift */; };
+		B7B8787D206FBF2700FE457B /* ArticulationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B8787C206FBF2700FE457B /* ArticulationManager.swift */; };
+		B7B8787F206FC3ED00FE457B /* SynthesizerDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B8787E206FC3ED00FE457B /* SynthesizerDelegates.swift */; };
+		B7B87881206FCB7600FE457B /* SoundPlayerDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B87880206FCB7600FE457B /* SoundPlayerDelegates.swift */; };
+		B7B87883206FCED600FE457B /* AudioContextConvey.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B87882206FCED600FE457B /* AudioContextConvey.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7B87854206E8F1F00FE457B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7B87840206E8F1F00FE457B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7B87848206E8F1F00FE457B;
+			remoteInfo = FourierMachines.Ani.Client.Articulation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B760227520C3C89700281FD0 /* ArticulationStates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticulationStates.swift; sourceTree = "<group>"; };
+		B7B87849206E8F1F00FE457B /* FourierMachines_Ani_Client_Articulation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FourierMachines_Ani_Client_Articulation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7B8784C206E8F1F00FE457B /* FourierMachines_Ani_Client_Articulation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourierMachines_Ani_Client_Articulation.h; sourceTree = "<group>"; };
+		B7B8784D206E8F1F00FE457B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7B87852206E8F1F00FE457B /* FourierMachines.Ani.Client.ArticulationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FourierMachines.Ani.Client.ArticulationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7B87857206E8F1F00FE457B /* FourierMachines_Ani_Client_ArticulationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourierMachines_Ani_Client_ArticulationTests.swift; sourceTree = "<group>"; };
+		B7B87859206E8F1F00FE457B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7B87866206E915B00FE457B /* SpeexT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeexT.swift; sourceTree = "<group>"; };
+		B7B87868206E916B00FE457B /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		B7B8786A206E918900FE457B /* Synthesizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Synthesizer.swift; sourceTree = "<group>"; };
+		B7B8786C206E920300FE457B /* SpeexTDelegates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeexTDelegates.swift; sourceTree = "<group>"; };
+		B7B87871206FA0F200FE457B /* LISTENING_STATES.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LISTENING_STATES.swift; sourceTree = "<group>"; };
+		B7B87874206FA15500FE457B /* AudioContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioContext.swift; sourceTree = "<group>"; };
+		B7B87877206FA30500FE457B /* ArticulationConvey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticulationConvey.swift; sourceTree = "<group>"; };
+		B7B87879206FA6FF00FE457B /* ArticulationAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticulationAccess.swift; sourceTree = "<group>"; };
+		B7B8787C206FBF2700FE457B /* ArticulationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticulationManager.swift; sourceTree = "<group>"; };
+		B7B8787E206FC3ED00FE457B /* SynthesizerDelegates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynthesizerDelegates.swift; sourceTree = "<group>"; };
+		B7B87880206FCB7600FE457B /* SoundPlayerDelegates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayerDelegates.swift; sourceTree = "<group>"; };
+		B7B87882206FCED600FE457B /* AudioContextConvey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioContextConvey.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7B87845206E8F1F00FE457B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7B8784F206E8F1F00FE457B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7B87853206E8F1F00FE457B /* FourierMachines_Ani_Client_Articulation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B760227720C3C89C00281FD0 /* Constatns */ = {
+			isa = PBXGroup;
+			children = (
+				B760227520C3C89700281FD0 /* ArticulationStates.swift */,
+			);
+			path = Constatns;
+			sourceTree = "<group>";
+		};
+		B7B8783F206E8F1F00FE457B = {
+			isa = PBXGroup;
+			children = (
+				B7B8784B206E8F1F00FE457B /* FourierMachines.Ani.Client.Articulation */,
+				B7B87856206E8F1F00FE457B /* FourierMachines.Ani.Client.ArticulationTests */,
+				B7B8784A206E8F1F00FE457B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7B8784A206E8F1F00FE457B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7B87849206E8F1F00FE457B /* FourierMachines_Ani_Client_Articulation.framework */,
+				B7B87852206E8F1F00FE457B /* FourierMachines.Ani.Client.ArticulationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7B8784B206E8F1F00FE457B /* FourierMachines.Ani.Client.Articulation */ = {
+			isa = PBXGroup;
+			children = (
+				B7B87864206E8F6B00FE457B /* FrameworkInterface */,
+				B7B87863206E8F5E00FE457B /* Framework */,
+				B7B8784C206E8F1F00FE457B /* FourierMachines_Ani_Client_Articulation.h */,
+				B7B8784D206E8F1F00FE457B /* Info.plist */,
+			);
+			path = FourierMachines.Ani.Client.Articulation;
+			sourceTree = "<group>";
+		};
+		B7B87856206E8F1F00FE457B /* FourierMachines.Ani.Client.ArticulationTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7B87857206E8F1F00FE457B /* FourierMachines_Ani_Client_ArticulationTests.swift */,
+				B7B87859206E8F1F00FE457B /* Info.plist */,
+			);
+			path = FourierMachines.Ani.Client.ArticulationTests;
+			sourceTree = "<group>";
+		};
+		B7B87863206E8F5E00FE457B /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				B7B87873206FA14400FE457B /* Context */,
+				B7B8786A206E918900FE457B /* Synthesizer.swift */,
+				B7B87868206E916B00FE457B /* SoundPlayer.swift */,
+				B7B87866206E915B00FE457B /* SpeexT.swift */,
+				B7B8786F206F9ED200FE457B /* DataTypes */,
+				B7B87865206E8F8300FE457B /* Delegates */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		B7B87864206E8F6B00FE457B /* FrameworkInterface */ = {
+			isa = PBXGroup;
+			children = (
+				B7B8787B206FBF0200FE457B /* InterfaceImplementation */,
+				B7B8786E206F9EB400FE457B /* DataTypes */,
+				B7B87879206FA6FF00FE457B /* ArticulationAccess.swift */,
+			);
+			path = FrameworkInterface;
+			sourceTree = "<group>";
+		};
+		B7B87865206E8F8300FE457B /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				B7B8786C206E920300FE457B /* SpeexTDelegates.swift */,
+				B7B8787E206FC3ED00FE457B /* SynthesizerDelegates.swift */,
+				B7B87880206FCB7600FE457B /* SoundPlayerDelegates.swift */,
+				B7B87882206FCED600FE457B /* AudioContextConvey.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		B7B8786E206F9EB400FE457B /* DataTypes */ = {
+			isa = PBXGroup;
+			children = (
+				B760227720C3C89C00281FD0 /* Constatns */,
+				B7B87876206FA2E700FE457B /* Delegates */,
+			);
+			path = DataTypes;
+			sourceTree = "<group>";
+		};
+		B7B8786F206F9ED200FE457B /* DataTypes */ = {
+			isa = PBXGroup;
+			children = (
+				B7B87870206F9EDC00FE457B /* Constants */,
+			);
+			path = DataTypes;
+			sourceTree = "<group>";
+		};
+		B7B87870206F9EDC00FE457B /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				B7B87871206FA0F200FE457B /* LISTENING_STATES.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		B7B87873206FA14400FE457B /* Context */ = {
+			isa = PBXGroup;
+			children = (
+				B7B87874206FA15500FE457B /* AudioContext.swift */,
+			);
+			path = Context;
+			sourceTree = "<group>";
+		};
+		B7B87876206FA2E700FE457B /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				B7B87877206FA30500FE457B /* ArticulationConvey.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		B7B8787B206FBF0200FE457B /* InterfaceImplementation */ = {
+			isa = PBXGroup;
+			children = (
+				B7B8787C206FBF2700FE457B /* ArticulationManager.swift */,
+			);
+			path = InterfaceImplementation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B7B87846206E8F1F00FE457B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7B8785A206E8F1F00FE457B /* FourierMachines_Ani_Client_Articulation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B7B87848206E8F1F00FE457B /* FourierMachines.Ani.Client.Articulation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7B8785D206E8F1F00FE457B /* Build configuration list for PBXNativeTarget "FourierMachines.Ani.Client.Articulation" */;
+			buildPhases = (
+				B7B87844206E8F1F00FE457B /* Sources */,
+				B7B87845206E8F1F00FE457B /* Frameworks */,
+				B7B87846206E8F1F00FE457B /* Headers */,
+				B7B87847206E8F1F00FE457B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FourierMachines.Ani.Client.Articulation;
+			productName = FourierMachines.Ani.Client.Articulation;
+			productReference = B7B87849206E8F1F00FE457B /* FourierMachines_Ani_Client_Articulation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B7B87851206E8F1F00FE457B /* FourierMachines.Ani.Client.ArticulationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7B87860206E8F2000FE457B /* Build configuration list for PBXNativeTarget "FourierMachines.Ani.Client.ArticulationTests" */;
+			buildPhases = (
+				B7B8784E206E8F1F00FE457B /* Sources */,
+				B7B8784F206E8F1F00FE457B /* Frameworks */,
+				B7B87850206E8F1F00FE457B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7B87855206E8F1F00FE457B /* PBXTargetDependency */,
+			);
+			name = FourierMachines.Ani.Client.ArticulationTests;
+			productName = FourierMachines.Ani.Client.ArticulationTests;
+			productReference = B7B87852206E8F1F00FE457B /* FourierMachines.Ani.Client.ArticulationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7B87840206E8F1F00FE457B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = FourierMachines;
+				TargetAttributes = {
+					B7B87848206E8F1F00FE457B = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1020;
+						ProvisioningStyle = Automatic;
+					};
+					B7B87851206E8F1F00FE457B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B7B87843206E8F1F00FE457B /* Build configuration list for PBXProject "FourierMachines.Ani.Client.Articulation" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7B8783F206E8F1F00FE457B;
+			productRefGroup = B7B8784A206E8F1F00FE457B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7B87848206E8F1F00FE457B /* FourierMachines.Ani.Client.Articulation */,
+				B7B87851206E8F1F00FE457B /* FourierMachines.Ani.Client.ArticulationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7B87847206E8F1F00FE457B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7B87850206E8F1F00FE457B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7B87844206E8F1F00FE457B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7B87869206E916B00FE457B /* SoundPlayer.swift in Sources */,
+				B7B8787D206FBF2700FE457B /* ArticulationManager.swift in Sources */,
+				B7B87872206FA0F200FE457B /* LISTENING_STATES.swift in Sources */,
+				B7B87875206FA15500FE457B /* AudioContext.swift in Sources */,
+				B7B87881206FCB7600FE457B /* SoundPlayerDelegates.swift in Sources */,
+				B7B87867206E915B00FE457B /* SpeexT.swift in Sources */,
+				B7B8787A206FA6FF00FE457B /* ArticulationAccess.swift in Sources */,
+				B7B8786B206E918900FE457B /* Synthesizer.swift in Sources */,
+				B7B8787F206FC3ED00FE457B /* SynthesizerDelegates.swift in Sources */,
+				B7B8786D206E920300FE457B /* SpeexTDelegates.swift in Sources */,
+				B7B87883206FCED600FE457B /* AudioContextConvey.swift in Sources */,
+				B760227620C3C89700281FD0 /* ArticulationStates.swift in Sources */,
+				B7B87878206FA30500FE457B /* ArticulationConvey.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7B8784E206E8F1F00FE457B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7B87858206E8F1F00FE457B /* FourierMachines_Ani_Client_ArticulationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7B87855206E8F1F00FE457B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7B87848206E8F1F00FE457B /* FourierMachines.Ani.Client.Articulation */;
+			targetProxy = B7B87854206E8F1F00FE457B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B7B8785B206E8F1F00FE457B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B7B8785C206E8F1F00FE457B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B7B8785E206E8F1F00FE457B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2WTB6PH23C;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FourierMachines.Ani.Client.Articulation/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FourierMachines.FourierMachines-Ani-Client-Articulation";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7B8785F206E8F1F00FE457B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2WTB6PH23C;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FourierMachines.Ani.Client.Articulation/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FourierMachines.FourierMachines-Ani-Client-Articulation";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B7B87861206E8F2000FE457B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2WTB6PH23C;
+				INFOPLIST_FILE = FourierMachines.Ani.Client.ArticulationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FourierMachines.FourierMachines-Ani-Client-ArticulationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7B87862206E8F2000FE457B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2WTB6PH23C;
+				INFOPLIST_FILE = FourierMachines.Ani.Client.ArticulationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "FourierMachines.FourierMachines-Ani-Client-ArticulationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7B87843206E8F1F00FE457B /* Build configuration list for PBXProject "FourierMachines.Ani.Client.Articulation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7B8785B206E8F1F00FE457B /* Debug */,
+				B7B8785C206E8F1F00FE457B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7B8785D206E8F1F00FE457B /* Build configuration list for PBXNativeTarget "FourierMachines.Ani.Client.Articulation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7B8785E206E8F1F00FE457B /* Debug */,
+				B7B8785F206E8F1F00FE457B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7B87860206E8F2000FE457B /* Build configuration list for PBXNativeTarget "FourierMachines.Ani.Client.ArticulationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7B87861206E8F2000FE457B /* Debug */,
+				B7B87862206E8F2000FE457B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7B87840206E8F1F00FE457B /* Project object */;
+}

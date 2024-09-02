@@ -1,0 +1,6 @@
+framework module Pods_FourierMachines_Ani_Client_MqttTests {
+  umbrella header "Pods-FourierMachines.Ani.Client.MqttTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

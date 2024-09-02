@@ -1,0 +1,6 @@
+framework module Pods_AniDreamTests {
+  umbrella header "Pods-AniDreamTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

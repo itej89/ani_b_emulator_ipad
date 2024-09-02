@@ -1,0 +1,1184 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E433DB5EB2FD9F4029D9540 /* Pods_FourierMachines_Ani_Client_SystemTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5836ED64FE2EABA859FB018 /* Pods_FourierMachines_Ani_Client_SystemTests.framework */; };
+		B70642E223350BB700FBE814 /* Zip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B70642D923350BA000FBE814 /* Zip.framework */; };
+		B71A89FC20D5399B00D0020B /* IDLEAnimationJob.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71A89FB20D5399B00D0020B /* IDLEAnimationJob.swift */; };
+		B7673FDA2098CDF30060DBD9 /* FourierMachines_Ani_Client_System.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7673FD02098CDF30060DBD9 /* FourierMachines_Ani_Client_System.framework */; };
+		B7673FDF2098CDF30060DBD9 /* FourierMachines_Ani_Client_SystemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7673FDE2098CDF30060DBD9 /* FourierMachines_Ani_Client_SystemTests.swift */; };
+		B7673FE12098CDF30060DBD9 /* FourierMachines_Ani_Client_System.h in Headers */ = {isa = PBXBuildFile; fileRef = B7673FD32098CDF30060DBD9 /* FourierMachines_Ani_Client_System.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B767400D2098CE1C0060DBD9 /* DispatcherHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7673FEB2098CE1C0060DBD9 /* DispatcherHelper.swift */; };
+		B76740112098CE1C0060DBD9 /* ApplicationStateHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7673FF02098CE1C0060DBD9 /* ApplicationStateHandler.swift */; };
+		B76740122098CE1C0060DBD9 /* UIMainModuleHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7673FF12098CE1C0060DBD9 /* UIMainModuleHandler.swift */; };
+		B76740152098CE1C0060DBD9 /* APP_STATE.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7673FF62098CE1C0060DBD9 /* APP_STATE.swift */; };
+		B76740182098CE1C0060DBD9 /* ApplicationStateDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7673FFA2098CE1C0060DBD9 /* ApplicationStateDelegate.swift */; };
+		B767401B2098CE1C0060DBD9 /* ApplicationStateListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7673FFD2098CE1C0060DBD9 /* ApplicationStateListener.swift */; };
+		B76740622098CE730060DBD9 /* FourierMachines_Ani_Client_Articulation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B767402F2098CE3B0060DBD9 /* FourierMachines_Ani_Client_Articulation.framework */; };
+		B76740632098CE730060DBD9 /* FourierMachines_Ani_Client_DB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B76740382098CE470060DBD9 /* FourierMachines_Ani_Client_DB.framework */; };
+		B76740642098CE730060DBD9 /* FourierMachines_Ani_Client_Kinetics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B76740432098CE500060DBD9 /* FourierMachines_Ani_Client_Kinetics.framework */; };
+		B76740662098CE730060DBD9 /* FourierMachines_Ani_Client_Scheduler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B76740562098CE620060DBD9 /* FourierMachines_Ani_Client_Scheduler.framework */; };
+		B76740B72098D9E20060DBD9 /* SystemFlowManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76740B62098D9E20060DBD9 /* SystemFlowManager.swift */; };
+		B76740DE2098DFCB0060DBD9 /* UIMAINConvey.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76740DD2098DFCB0060DBD9 /* UIMAINConvey.swift */; };
+		B769496B240B814D00A28B86 /* UIBotUploadConvey.swift in Sources */ = {isa = PBXBuildFile; fileRef = B769496A240B814D00A28B86 /* UIBotUploadConvey.swift */; };
+		B769497A240B81B000A28B86 /* UIBotUploadHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7694979240B81B000A28B86 /* UIBotUploadHandler.swift */; };
+		B784E61E22BCD4F700ADCBC4 /* BotConnectionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B784E61D22BCD4F700ADCBC4 /* BotConnectionHandler.swift */; };
+		B7B4D309249BE6EE00CB11FC /* Coldplay - Always In My Head(Lyrics Video).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B7B4D2F8249BE6EE00CB11FC /* Coldplay - Always In My Head(Lyrics Video).mp3 */; };
+		B7B4D30A249BE6EE00CB11FC /* Grimes - California.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B7B4D2FB249BE6EE00CB11FC /* Grimes - California.mp3 */; };
+		B7B4D30B249BE6EE00CB11FC /* The_Vamps_-_Paper_Hearts_(Lyric_Video).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B7B4D2FE249BE6EE00CB11FC /* The_Vamps_-_Paper_Hearts_(Lyric_Video).mp3 */; };
+		B7B4D30C249BE6EE00CB11FC /* Ellie Goulding - Still Falling For You.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B7B4D301249BE6EE00CB11FC /* Ellie Goulding - Still Falling For You.mp3 */; };
+		B7B5763322AE273900362646 /* ChoreogramJob.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B5763222AE273900362646 /* ChoreogramJob.swift */; };
+		B7B5764D22AE825400362646 /* AudioContextConveyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B5764C22AE825400362646 /* AudioContextConveyHandler.swift */; };
+		B7B5765722AFB7CF00362646 /* UIChoreogramHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B5765622AFB7CF00362646 /* UIChoreogramHandler.swift */; };
+		B7B5765922AFB80B00362646 /* UIChoreogramConvey.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B5765822AFB80B00362646 /* UIChoreogramConvey.swift */; };
+		B7B5765B22AFB8DF00362646 /* ChoreogramRead.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B5765A22AFB8DF00362646 /* ChoreogramRead.swift */; };
+		B7BBC3F92301CF8A004D65B3 /* FourierMachines_Ani_Client_BotConnect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7BBC3F82301CF8A004D65B3 /* FourierMachines_Ani_Client_BotConnect.framework */; };
+		B7BBC40A2309B222004D65B3 /* AniUIConvey.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BBC4092309B222004D65B3 /* AniUIConvey.swift */; };
+		B7DB1B1E209EF9700091E855 /* AniUIRead.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DB1B1D209EF9700091E855 /* AniUIRead.swift */; };
+		B7DCD4FD2316DA1800A733B3 /* Choreogram.B in Resources */ = {isa = PBXBuildFile; fileRef = B7DCD4F92316DA0C00A733B3 /* Choreogram.B */; };
+		B7DCD4FE2316DA1800A733B3 /* EmSynth.B in Resources */ = {isa = PBXBuildFile; fileRef = B7DCD4F82316DA0C00A733B3 /* EmSynth.B */; };
+		B7DCD4FF2316DA1800A733B3 /* Teltale.B in Resources */ = {isa = PBXBuildFile; fileRef = B7DCD4F72316DA0C00A733B3 /* Teltale.B */; };
+		B7DCD633231FB71100A733B3 /* FourierMachines_Ani_Client_BOIP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7DCD632231FB71100A733B3 /* FourierMachines_Ani_Client_BOIP.framework */; };
+		B7E6EFFF22755AEB00153A92 /* GraphicAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7E6EFFE22755AEB00153A92 /* GraphicAnimation.framework */; };
+		B7E6F0082275AEF600153A92 /* BrowseAnimationsJob.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E6F0072275AEF600153A92 /* BrowseAnimationsJob.swift */; };
+		B7E6F00A2275F15500153A92 /* AddEmotionJob.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E6F0092275F15500153A92 /* AddEmotionJob.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B70642D823350BA000FBE814 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B70642C823350BA000FBE814 /* Zip.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 347E3A741C1DFFB500A11FD3;
+			remoteInfo = Zip;
+		};
+		B70642DA23350BA000FBE814 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B70642C823350BA000FBE814 /* Zip.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 347E3A7E1C1DFFB500A11FD3;
+			remoteInfo = ZipTests;
+		};
+		B70642DC23350BA000FBE814 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B70642C823350BA000FBE814 /* Zip.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 343F50FF1C8DAEEC0028C434;
+			remoteInfo = "Zip OSX";
+		};
+		B70642DE23350BA000FBE814 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B70642C823350BA000FBE814 /* Zip.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 343F51081C8DAEEC0028C434;
+			remoteInfo = "Zip OSXTests";
+		};
+		B70642E023350BA000FBE814 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B70642C823350BA000FBE814 /* Zip.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 342545B51CE525B200336074;
+			remoteInfo = "Zip tvOS";
+		};
+		B7673FDB2098CDF30060DBD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7673FC72098CDF30060DBD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7673FCF2098CDF30060DBD9;
+			remoteInfo = FourierMachines.Ani.Client.System;
+		};
+		B767402E2098CE3B0060DBD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B76740292098CE3B0060DBD9 /* FourierMachines.Ani.Client.Articulation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B7B87849206E8F1F00FE457B;
+			remoteInfo = FourierMachines.Ani.Client.Articulation;
+		};
+		B76740302098CE3B0060DBD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B76740292098CE3B0060DBD9 /* FourierMachines.Ani.Client.Articulation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B7B87852206E8F1F00FE457B;
+			remoteInfo = FourierMachines.Ani.Client.ArticulationTests;
+		};
+		B76740372098CE470060DBD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B76740322098CE470060DBD9 /* FourierMachines.Ani.Client.DB.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B72D0C3A2023483600CF5E4E;
+			remoteInfo = FourierMachines.Ani.Client.DB;
+		};
+		B76740392098CE470060DBD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B76740322098CE470060DBD9 /* FourierMachines.Ani.Client.DB.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B72D0C432023483600CF5E4E;
+			remoteInfo = FourierMachines.Ani.Client.DBTests;
+		};
+		B76740422098CE500060DBD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B767403B2098CE4F0060DBD9 /* FourierMachines.Ani.Client.Kinetics.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B7F48478202946DF00DA19BE;
+			remoteInfo = FourierMachines.Ani.Client.Kinetics;
+		};
+		B76740442098CE500060DBD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B767403B2098CE4F0060DBD9 /* FourierMachines.Ani.Client.Kinetics.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B7F48481202946E000DA19BE;
+			remoteInfo = FourierMachines.Ani.Client.KineticsTests;
+		};
+		B767404C2098CE590060DBD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B76740462098CE590060DBD9 /* FourierMachines.Ani.Client.MotionGraphics.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B7F484D9202DFA2600DA19BE;
+			remoteInfo = FourierMachines.Ani.Client.MotionGraphics;
+		};
+		B767404E2098CE590060DBD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B76740462098CE590060DBD9 /* FourierMachines.Ani.Client.MotionGraphics.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B7F484E2202DFA2600DA19BE;
+			remoteInfo = FourierMachines.Ani.Client.MotionGraphicsTests;
+		};
+		B76740552098CE620060DBD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B76740502098CE620060DBD9 /* FourierMachines.Ani.Client.Scheduler.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B7DE4F7B2077D8AF00255085;
+			remoteInfo = FourierMachines.Ani.Client.Scheduler;
+		};
+		B76740572098CE620060DBD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B76740502098CE620060DBD9 /* FourierMachines.Ani.Client.Scheduler.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B7DE4F842077D8AF00255085;
+			remoteInfo = FourierMachines.Ani.Client.SchedulerTests;
+		};
+		B767405E2098CE6B0060DBD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B76740592098CE6A0060DBD9 /* FourierMachunes.Ani.Client.Studio.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B7C567E8209836AE00645632;
+			remoteInfo = FourierMachunes.Ani.Client.Studio;
+		};
+		B76740602098CE6B0060DBD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B76740592098CE6A0060DBD9 /* FourierMachunes.Ani.Client.Studio.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B7C567F1209836AE00645632;
+			remoteInfo = FourierMachunes.Ani.Client.StudioTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2186EAC83C4AF61324C38BC0 /* Pods_FourierMachines_Ani_Client_System.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FourierMachines_Ani_Client_System.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		525165EE99F239613DE7DC1C /* Pods-FourierMachines.Ani.Client.SystemTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FourierMachines.Ani.Client.SystemTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FourierMachines.Ani.Client.SystemTests/Pods-FourierMachines.Ani.Client.SystemTests.release.xcconfig"; sourceTree = "<group>"; };
+		607EF5A23229EE6E3E9E5527 /* Pods-FourierMachines.Ani.Client.SystemTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FourierMachines.Ani.Client.SystemTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FourierMachines.Ani.Client.SystemTests/Pods-FourierMachines.Ani.Client.SystemTests.debug.xcconfig"; sourceTree = "<group>"; };
+		99B5EACC74855EE8E3750922 /* Pods-FourierMachines.Ani.Client.System.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FourierMachines.Ani.Client.System.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FourierMachines.Ani.Client.System/Pods-FourierMachines.Ani.Client.System.debug.xcconfig"; sourceTree = "<group>"; };
+		B70642C823350BA000FBE814 /* Zip.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Zip.xcodeproj; path = ../Zip/Zip.xcodeproj; sourceTree = "<group>"; };
+		B71A89FB20D5399B00D0020B /* IDLEAnimationJob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDLEAnimationJob.swift; sourceTree = "<group>"; };
+		B7673FD02098CDF30060DBD9 /* FourierMachines_Ani_Client_System.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FourierMachines_Ani_Client_System.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7673FD32098CDF30060DBD9 /* FourierMachines_Ani_Client_System.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourierMachines_Ani_Client_System.h; sourceTree = "<group>"; };
+		B7673FD42098CDF30060DBD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7673FD92098CDF30060DBD9 /* FourierMachines.Ani.Client.SystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FourierMachines.Ani.Client.SystemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7673FDE2098CDF30060DBD9 /* FourierMachines_Ani_Client_SystemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourierMachines_Ani_Client_SystemTests.swift; sourceTree = "<group>"; };
+		B7673FE02098CDF30060DBD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7673FEB2098CE1C0060DBD9 /* DispatcherHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DispatcherHelper.swift; sourceTree = "<group>"; };
+		B7673FF02098CE1C0060DBD9 /* ApplicationStateHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationStateHandler.swift; sourceTree = "<group>"; };
+		B7673FF12098CE1C0060DBD9 /* UIMainModuleHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIMainModuleHandler.swift; sourceTree = "<group>"; };
+		B7673FF62098CE1C0060DBD9 /* APP_STATE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APP_STATE.swift; sourceTree = "<group>"; };
+		B7673FFA2098CE1C0060DBD9 /* ApplicationStateDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationStateDelegate.swift; sourceTree = "<group>"; };
+		B7673FFD2098CE1C0060DBD9 /* ApplicationStateListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationStateListener.swift; sourceTree = "<group>"; };
+		B76740292098CE3B0060DBD9 /* FourierMachines.Ani.Client.Articulation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FourierMachines.Ani.Client.Articulation.xcodeproj; path = ../FourierMachines.Ani.Client.Articulation/FourierMachines.Ani.Client.Articulation.xcodeproj; sourceTree = "<group>"; };
+		B76740322098CE470060DBD9 /* FourierMachines.Ani.Client.DB.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FourierMachines.Ani.Client.DB.xcodeproj; path = ../FourierMachines.Ani.Client.DB/FourierMachines.Ani.Client.DB.xcodeproj; sourceTree = "<group>"; };
+		B767403B2098CE4F0060DBD9 /* FourierMachines.Ani.Client.Kinetics.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FourierMachines.Ani.Client.Kinetics.xcodeproj; path = ../FourierMachines.Ani.Client.Kinetics/FourierMachines.Ani.Client.Kinetics.xcodeproj; sourceTree = "<group>"; };
+		B76740462098CE590060DBD9 /* FourierMachines.Ani.Client.MotionGraphics.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FourierMachines.Ani.Client.MotionGraphics.xcodeproj; path = ../FourierMachines.Ani.Client.MotionGraphics/FourierMachines.Ani.Client.MotionGraphics.xcodeproj; sourceTree = "<group>"; };
+		B76740502098CE620060DBD9 /* FourierMachines.Ani.Client.Scheduler.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FourierMachines.Ani.Client.Scheduler.xcodeproj; path = ../FourierMachines.Ani.Client.Scheduler/FourierMachines.Ani.Client.Scheduler.xcodeproj; sourceTree = "<group>"; };
+		B76740592098CE6A0060DBD9 /* FourierMachunes.Ani.Client.Studio.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FourierMachunes.Ani.Client.Studio.xcodeproj; path = ../FourierMachunes.Ani.Client.Studio/FourierMachunes.Ani.Client.Studio.xcodeproj; sourceTree = "<group>"; };
+		B76740B62098D9E20060DBD9 /* SystemFlowManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemFlowManager.swift; sourceTree = "<group>"; };
+		B76740DD2098DFCB0060DBD9 /* UIMAINConvey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIMAINConvey.swift; sourceTree = "<group>"; };
+		B769496A240B814D00A28B86 /* UIBotUploadConvey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBotUploadConvey.swift; sourceTree = "<group>"; };
+		B7694979240B81B000A28B86 /* UIBotUploadHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBotUploadHandler.swift; sourceTree = "<group>"; };
+		B784E61322BCCD2900ADCBC4 /* FourierMachines_Ani_Client_Mqtt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FourierMachines_Ani_Client_Mqtt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B784E61D22BCD4F700ADCBC4 /* BotConnectionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotConnectionHandler.swift; sourceTree = "<group>"; };
+		B7B4D2F8249BE6EE00CB11FC /* Coldplay - Always In My Head(Lyrics Video).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Coldplay - Always In My Head(Lyrics Video).mp3"; sourceTree = "<group>"; };
+		B7B4D2FB249BE6EE00CB11FC /* Grimes - California.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Grimes - California.mp3"; sourceTree = "<group>"; };
+		B7B4D2FE249BE6EE00CB11FC /* The_Vamps_-_Paper_Hearts_(Lyric_Video).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The_Vamps_-_Paper_Hearts_(Lyric_Video).mp3"; sourceTree = "<group>"; };
+		B7B4D301249BE6EE00CB11FC /* Ellie Goulding - Still Falling For You.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ellie Goulding - Still Falling For You.mp3"; sourceTree = "<group>"; };
+		B7B5763222AE273900362646 /* ChoreogramJob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoreogramJob.swift; sourceTree = "<group>"; };
+		B7B5764C22AE825400362646 /* AudioContextConveyHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioContextConveyHandler.swift; sourceTree = "<group>"; };
+		B7B5765622AFB7CF00362646 /* UIChoreogramHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIChoreogramHandler.swift; sourceTree = "<group>"; };
+		B7B5765822AFB80B00362646 /* UIChoreogramConvey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIChoreogramConvey.swift; sourceTree = "<group>"; };
+		B7B5765A22AFB8DF00362646 /* ChoreogramRead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoreogramRead.swift; sourceTree = "<group>"; };
+		B7BBC3F82301CF8A004D65B3 /* FourierMachines_Ani_Client_BotConnect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FourierMachines_Ani_Client_BotConnect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7BBC4092309B222004D65B3 /* AniUIConvey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AniUIConvey.swift; sourceTree = "<group>"; };
+		B7DB1B1D209EF9700091E855 /* AniUIRead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AniUIRead.swift; sourceTree = "<group>"; };
+		B7DCD4F72316DA0C00A733B3 /* Teltale.B */ = {isa = PBXFileReference; lastKnownFileType = file; name = Teltale.B; path = FourierMachines.Ani.Client.System/Teltale.B; sourceTree = "<group>"; };
+		B7DCD4F82316DA0C00A733B3 /* EmSynth.B */ = {isa = PBXFileReference; lastKnownFileType = file; name = EmSynth.B; path = FourierMachines.Ani.Client.System/EmSynth.B; sourceTree = "<group>"; };
+		B7DCD4F92316DA0C00A733B3 /* Choreogram.B */ = {isa = PBXFileReference; lastKnownFileType = file; name = Choreogram.B; path = FourierMachines.Ani.Client.System/Choreogram.B; sourceTree = "<group>"; };
+		B7DCD632231FB71100A733B3 /* FourierMachines_Ani_Client_BOIP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FourierMachines_Ani_Client_BOIP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7E6EFFE22755AEB00153A92 /* GraphicAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GraphicAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7E6F0072275AEF600153A92 /* BrowseAnimationsJob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseAnimationsJob.swift; sourceTree = "<group>"; };
+		B7E6F0092275F15500153A92 /* AddEmotionJob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEmotionJob.swift; sourceTree = "<group>"; };
+		C4B1075F9A578D675214EDB3 /* Pods-FourierMachines.Ani.Client.System.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FourierMachines.Ani.Client.System.release.xcconfig"; path = "Pods/Target Support Files/Pods-FourierMachines.Ani.Client.System/Pods-FourierMachines.Ani.Client.System.release.xcconfig"; sourceTree = "<group>"; };
+		C5836ED64FE2EABA859FB018 /* Pods_FourierMachines_Ani_Client_SystemTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FourierMachines_Ani_Client_SystemTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7673FCC2098CDF30060DBD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B70642E223350BB700FBE814 /* Zip.framework in Frameworks */,
+				B7DCD633231FB71100A733B3 /* FourierMachines_Ani_Client_BOIP.framework in Frameworks */,
+				B7BBC3F92301CF8A004D65B3 /* FourierMachines_Ani_Client_BotConnect.framework in Frameworks */,
+				B7E6EFFF22755AEB00153A92 /* GraphicAnimation.framework in Frameworks */,
+				B76740622098CE730060DBD9 /* FourierMachines_Ani_Client_Articulation.framework in Frameworks */,
+				B76740632098CE730060DBD9 /* FourierMachines_Ani_Client_DB.framework in Frameworks */,
+				B76740642098CE730060DBD9 /* FourierMachines_Ani_Client_Kinetics.framework in Frameworks */,
+				B76740662098CE730060DBD9 /* FourierMachines_Ani_Client_Scheduler.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7673FD62098CDF30060DBD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7673FDA2098CDF30060DBD9 /* FourierMachines_Ani_Client_System.framework in Frameworks */,
+				7E433DB5EB2FD9F4029D9540 /* Pods_FourierMachines_Ani_Client_SystemTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63D7AD54CAF4C3583FB2BD5E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99B5EACC74855EE8E3750922 /* Pods-FourierMachines.Ani.Client.System.debug.xcconfig */,
+				C4B1075F9A578D675214EDB3 /* Pods-FourierMachines.Ani.Client.System.release.xcconfig */,
+				607EF5A23229EE6E3E9E5527 /* Pods-FourierMachines.Ani.Client.SystemTests.debug.xcconfig */,
+				525165EE99F239613DE7DC1C /* Pods-FourierMachines.Ani.Client.SystemTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B70642C923350BA000FBE814 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B70642D923350BA000FBE814 /* Zip.framework */,
+				B70642DB23350BA000FBE814 /* ZipTests.xctest */,
+				B70642DD23350BA000FBE814 /* Zip.framework */,
+				B70642DF23350BA000FBE814 /* Zip OSXTests.xctest */,
+				B70642E123350BA000FBE814 /* Zip.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7673FC62098CDF30060DBD9 = {
+			isa = PBXGroup;
+			children = (
+				B7B4D2F5249BE6EE00CB11FC /* Acts */,
+				B7DCD4F92316DA0C00A733B3 /* Choreogram.B */,
+				B7DCD4F82316DA0C00A733B3 /* EmSynth.B */,
+				B7DCD4F72316DA0C00A733B3 /* Teltale.B */,
+				B7673FD22098CDF30060DBD9 /* FourierMachines.Ani.Client.System */,
+				B7673FDD2098CDF30060DBD9 /* FourierMachines.Ani.Client.SystemTests */,
+				B7673FD12098CDF30060DBD9 /* Products */,
+				B76740282098CE3B0060DBD9 /* Frameworks */,
+				63D7AD54CAF4C3583FB2BD5E /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		B7673FD12098CDF30060DBD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7673FD02098CDF30060DBD9 /* FourierMachines_Ani_Client_System.framework */,
+				B7673FD92098CDF30060DBD9 /* FourierMachines.Ani.Client.SystemTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7673FD22098CDF30060DBD9 /* FourierMachines.Ani.Client.System */ = {
+			isa = PBXGroup;
+			children = (
+				B7673FF32098CE1C0060DBD9 /* DataTypes */,
+				B7673FEA2098CE1C0060DBD9 /* Helpers */,
+				B76740022098CE1C0060DBD9 /* JOBS */,
+				B7673FEC2098CE1C0060DBD9 /* SystemEventHandlers */,
+				B7673FD32098CDF30060DBD9 /* FourierMachines_Ani_Client_System.h */,
+				B7673FD42098CDF30060DBD9 /* Info.plist */,
+				B76740B62098D9E20060DBD9 /* SystemFlowManager.swift */,
+			);
+			path = FourierMachines.Ani.Client.System;
+			sourceTree = "<group>";
+		};
+		B7673FDD2098CDF30060DBD9 /* FourierMachines.Ani.Client.SystemTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7673FDE2098CDF30060DBD9 /* FourierMachines_Ani_Client_SystemTests.swift */,
+				B7673FE02098CDF30060DBD9 /* Info.plist */,
+			);
+			path = FourierMachines.Ani.Client.SystemTests;
+			sourceTree = "<group>";
+		};
+		B7673FEA2098CE1C0060DBD9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B7673FEB2098CE1C0060DBD9 /* DispatcherHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B7673FEC2098CE1C0060DBD9 /* SystemEventHandlers */ = {
+			isa = PBXGroup;
+			children = (
+				B7673FF02098CE1C0060DBD9 /* ApplicationStateHandler.swift */,
+				B7673FF12098CE1C0060DBD9 /* UIMainModuleHandler.swift */,
+				B7B5764C22AE825400362646 /* AudioContextConveyHandler.swift */,
+				B7B5765622AFB7CF00362646 /* UIChoreogramHandler.swift */,
+				B784E61D22BCD4F700ADCBC4 /* BotConnectionHandler.swift */,
+				B7694979240B81B000A28B86 /* UIBotUploadHandler.swift */,
+			);
+			path = SystemEventHandlers;
+			sourceTree = "<group>";
+		};
+		B7673FF32098CE1C0060DBD9 /* DataTypes */ = {
+			isa = PBXGroup;
+			children = (
+				B7673FF42098CE1C0060DBD9 /* Constants */,
+				B7673FF82098CE1C0060DBD9 /* Delegates */,
+			);
+			path = DataTypes;
+			sourceTree = "<group>";
+		};
+		B7673FF42098CE1C0060DBD9 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				B7673FF62098CE1C0060DBD9 /* APP_STATE.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		B7673FF82098CE1C0060DBD9 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				B7DB1B29209F4F570091E855 /* Application */,
+				B7DB1B28209F4F300091E855 /* UI */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		B76740022098CE1C0060DBD9 /* JOBS */ = {
+			isa = PBXGroup;
+			children = (
+				B71A89FB20D5399B00D0020B /* IDLEAnimationJob.swift */,
+				B7E6F0072275AEF600153A92 /* BrowseAnimationsJob.swift */,
+				B7E6F0092275F15500153A92 /* AddEmotionJob.swift */,
+				B7B5763222AE273900362646 /* ChoreogramJob.swift */,
+			);
+			path = JOBS;
+			sourceTree = "<group>";
+		};
+		B76740282098CE3B0060DBD9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B70642C823350BA000FBE814 /* Zip.xcodeproj */,
+				B7DCD632231FB71100A733B3 /* FourierMachines_Ani_Client_BOIP.framework */,
+				B7BBC3F82301CF8A004D65B3 /* FourierMachines_Ani_Client_BotConnect.framework */,
+				B784E61322BCCD2900ADCBC4 /* FourierMachines_Ani_Client_Mqtt.framework */,
+				B7E6EFFE22755AEB00153A92 /* GraphicAnimation.framework */,
+				B76740592098CE6A0060DBD9 /* FourierMachunes.Ani.Client.Studio.xcodeproj */,
+				B76740502098CE620060DBD9 /* FourierMachines.Ani.Client.Scheduler.xcodeproj */,
+				B76740462098CE590060DBD9 /* FourierMachines.Ani.Client.MotionGraphics.xcodeproj */,
+				B767403B2098CE4F0060DBD9 /* FourierMachines.Ani.Client.Kinetics.xcodeproj */,
+				B76740322098CE470060DBD9 /* FourierMachines.Ani.Client.DB.xcodeproj */,
+				B76740292098CE3B0060DBD9 /* FourierMachines.Ani.Client.Articulation.xcodeproj */,
+				2186EAC83C4AF61324C38BC0 /* Pods_FourierMachines_Ani_Client_System.framework */,
+				C5836ED64FE2EABA859FB018 /* Pods_FourierMachines_Ani_Client_SystemTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B767402A2098CE3B0060DBD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B767402F2098CE3B0060DBD9 /* FourierMachines_Ani_Client_Articulation.framework */,
+				B76740312098CE3B0060DBD9 /* FourierMachines.Ani.Client.ArticulationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B76740332098CE470060DBD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B76740382098CE470060DBD9 /* FourierMachines_Ani_Client_DB.framework */,
+				B767403A2098CE470060DBD9 /* FourierMachines.Ani.Client.DBTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B767403C2098CE4F0060DBD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B76740432098CE500060DBD9 /* FourierMachines_Ani_Client_Kinetics.framework */,
+				B76740452098CE500060DBD9 /* FourierMachines.Ani.Client.KineticsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B76740472098CE590060DBD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B767404D2098CE590060DBD9 /* FourierMachines_Ani_Client_MotionGraphics.framework */,
+				B767404F2098CE590060DBD9 /* FourierMachines.Ani.Client.MotionGraphicsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B76740512098CE620060DBD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B76740562098CE620060DBD9 /* FourierMachines_Ani_Client_Scheduler.framework */,
+				B76740582098CE620060DBD9 /* FourierMachines.Ani.Client.SchedulerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B767405A2098CE6A0060DBD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B767405F2098CE6B0060DBD9 /* FourierMachunes_Ani_Client_Studio.framework */,
+				B76740612098CE6B0060DBD9 /* FourierMachunes.Ani.Client.StudioTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7B4D2F5249BE6EE00CB11FC /* Acts */ = {
+			isa = PBXGroup;
+			children = (
+				B7B4D2F6249BE6EE00CB11FC /* Always in my head */,
+				B7B4D2F9249BE6EE00CB11FC /* Grim Cali */,
+				B7B4D2FC249BE6EE00CB11FC /* Paper Hearts */,
+				B7B4D2FF249BE6EE00CB11FC /* still falling */,
+			);
+			path = Acts;
+			sourceTree = "<group>";
+		};
+		B7B4D2F6249BE6EE00CB11FC /* Always in my head */ = {
+			isa = PBXGroup;
+			children = (
+				B7B4D2F7249BE6EE00CB11FC /* audio */,
+			);
+			path = "Always in my head";
+			sourceTree = "<group>";
+		};
+		B7B4D2F7249BE6EE00CB11FC /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				B7B4D2F8249BE6EE00CB11FC /* Coldplay - Always In My Head(Lyrics Video).mp3 */,
+			);
+			path = audio;
+			sourceTree = "<group>";
+		};
+		B7B4D2F9249BE6EE00CB11FC /* Grim Cali */ = {
+			isa = PBXGroup;
+			children = (
+				B7B4D2FA249BE6EE00CB11FC /* audio */,
+			);
+			path = "Grim Cali";
+			sourceTree = "<group>";
+		};
+		B7B4D2FA249BE6EE00CB11FC /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				B7B4D2FB249BE6EE00CB11FC /* Grimes - California.mp3 */,
+			);
+			path = audio;
+			sourceTree = "<group>";
+		};
+		B7B4D2FC249BE6EE00CB11FC /* Paper Hearts */ = {
+			isa = PBXGroup;
+			children = (
+				B7B4D2FD249BE6EE00CB11FC /* audio */,
+			);
+			path = "Paper Hearts";
+			sourceTree = "<group>";
+		};
+		B7B4D2FD249BE6EE00CB11FC /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				B7B4D2FE249BE6EE00CB11FC /* The_Vamps_-_Paper_Hearts_(Lyric_Video).mp3 */,
+			);
+			path = audio;
+			sourceTree = "<group>";
+		};
+		B7B4D2FF249BE6EE00CB11FC /* still falling */ = {
+			isa = PBXGroup;
+			children = (
+				B7B4D300249BE6EE00CB11FC /* audio */,
+			);
+			path = "still falling";
+			sourceTree = "<group>";
+		};
+		B7B4D300249BE6EE00CB11FC /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				B7B4D301249BE6EE00CB11FC /* Ellie Goulding - Still Falling For You.mp3 */,
+			);
+			path = audio;
+			sourceTree = "<group>";
+		};
+		B7DB1B28209F4F300091E855 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B76740DD2098DFCB0060DBD9 /* UIMAINConvey.swift */,
+				B7DB1B1D209EF9700091E855 /* AniUIRead.swift */,
+				B7B5765822AFB80B00362646 /* UIChoreogramConvey.swift */,
+				B7B5765A22AFB8DF00362646 /* ChoreogramRead.swift */,
+				B7BBC4092309B222004D65B3 /* AniUIConvey.swift */,
+				B769496A240B814D00A28B86 /* UIBotUploadConvey.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		B7DB1B29209F4F570091E855 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				B7673FFA2098CE1C0060DBD9 /* ApplicationStateDelegate.swift */,
+				B7673FFD2098CE1C0060DBD9 /* ApplicationStateListener.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B7673FCD2098CDF30060DBD9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7673FE12098CDF30060DBD9 /* FourierMachines_Ani_Client_System.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B7673FCF2098CDF30060DBD9 /* FourierMachines.Ani.Client.System */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7673FE42098CDF30060DBD9 /* Build configuration list for PBXNativeTarget "FourierMachines.Ani.Client.System" */;
+			buildPhases = (
+				528DFE1E66471CC8A24EA302 /* [CP] Check Pods Manifest.lock */,
+				B7673FCB2098CDF30060DBD9 /* Sources */,
+				B7673FCC2098CDF30060DBD9 /* Frameworks */,
+				B7673FCD2098CDF30060DBD9 /* Headers */,
+				B7673FCE2098CDF30060DBD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FourierMachines.Ani.Client.System;
+			productName = FourierMachines.Ani.Client.System;
+			productReference = B7673FD02098CDF30060DBD9 /* FourierMachines_Ani_Client_System.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B7673FD82098CDF30060DBD9 /* FourierMachines.Ani.Client.SystemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7673FE72098CDF30060DBD9 /* Build configuration list for PBXNativeTarget "FourierMachines.Ani.Client.SystemTests" */;
+			buildPhases = (
+				B4BA100C99412D9D50D5676F /* [CP] Check Pods Manifest.lock */,
+				B7673FD52098CDF30060DBD9 /* Sources */,
+				B7673FD62098CDF30060DBD9 /* Frameworks */,
+				B7673FD72098CDF30060DBD9 /* Resources */,
+				A248995E2B097C92BC5381FB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7673FDC2098CDF30060DBD9 /* PBXTargetDependency */,
+			);
+			name = FourierMachines.Ani.Client.SystemTests;
+			productName = FourierMachines.Ani.Client.SystemTests;
+			productReference = B7673FD92098CDF30060DBD9 /* FourierMachines.Ani.Client.SystemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7673FC72098CDF30060DBD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					New,
+				);
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = FourierMachines;
+				TargetAttributes = {
+					B7673FCF2098CDF30060DBD9 = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1020;
+					};
+					B7673FD82098CDF30060DBD9 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = B7673FCA2098CDF30060DBD9 /* Build configuration list for PBXProject "FourierMachines.Ani.Client.System" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7673FC62098CDF30060DBD9;
+			productRefGroup = B7673FD12098CDF30060DBD9 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B767402A2098CE3B0060DBD9 /* Products */;
+					ProjectRef = B76740292098CE3B0060DBD9 /* FourierMachines.Ani.Client.Articulation.xcodeproj */;
+				},
+				{
+					ProductGroup = B76740332098CE470060DBD9 /* Products */;
+					ProjectRef = B76740322098CE470060DBD9 /* FourierMachines.Ani.Client.DB.xcodeproj */;
+				},
+				{
+					ProductGroup = B767403C2098CE4F0060DBD9 /* Products */;
+					ProjectRef = B767403B2098CE4F0060DBD9 /* FourierMachines.Ani.Client.Kinetics.xcodeproj */;
+				},
+				{
+					ProductGroup = B76740472098CE590060DBD9 /* Products */;
+					ProjectRef = B76740462098CE590060DBD9 /* FourierMachines.Ani.Client.MotionGraphics.xcodeproj */;
+				},
+				{
+					ProductGroup = B76740512098CE620060DBD9 /* Products */;
+					ProjectRef = B76740502098CE620060DBD9 /* FourierMachines.Ani.Client.Scheduler.xcodeproj */;
+				},
+				{
+					ProductGroup = B767405A2098CE6A0060DBD9 /* Products */;
+					ProjectRef = B76740592098CE6A0060DBD9 /* FourierMachunes.Ani.Client.Studio.xcodeproj */;
+				},
+				{
+					ProductGroup = B70642C923350BA000FBE814 /* Products */;
+					ProjectRef = B70642C823350BA000FBE814 /* Zip.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				B7673FCF2098CDF30060DBD9 /* FourierMachines.Ani.Client.System */,
+				B7673FD82098CDF30060DBD9 /* FourierMachines.Ani.Client.SystemTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B70642D923350BA000FBE814 /* Zip.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Zip.framework;
+			remoteRef = B70642D823350BA000FBE814 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B70642DB23350BA000FBE814 /* ZipTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ZipTests.xctest;
+			remoteRef = B70642DA23350BA000FBE814 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B70642DD23350BA000FBE814 /* Zip.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Zip.framework;
+			remoteRef = B70642DC23350BA000FBE814 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B70642DF23350BA000FBE814 /* Zip OSXTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Zip OSXTests.xctest";
+			remoteRef = B70642DE23350BA000FBE814 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B70642E123350BA000FBE814 /* Zip.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Zip.framework;
+			remoteRef = B70642E023350BA000FBE814 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B767402F2098CE3B0060DBD9 /* FourierMachines_Ani_Client_Articulation.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FourierMachines_Ani_Client_Articulation.framework;
+			remoteRef = B767402E2098CE3B0060DBD9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B76740312098CE3B0060DBD9 /* FourierMachines.Ani.Client.ArticulationTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = FourierMachines.Ani.Client.ArticulationTests.xctest;
+			remoteRef = B76740302098CE3B0060DBD9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B76740382098CE470060DBD9 /* FourierMachines_Ani_Client_DB.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FourierMachines_Ani_Client_DB.framework;
+			remoteRef = B76740372098CE470060DBD9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B767403A2098CE470060DBD9 /* FourierMachines.Ani.Client.DBTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = FourierMachines.Ani.Client.DBTests.xctest;
+			remoteRef = B76740392098CE470060DBD9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B76740432098CE500060DBD9 /* FourierMachines_Ani_Client_Kinetics.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FourierMachines_Ani_Client_Kinetics.framework;
+			remoteRef = B76740422098CE500060DBD9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B76740452098CE500060DBD9 /* FourierMachines.Ani.Client.KineticsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = FourierMachines.Ani.Client.KineticsTests.xctest;
+			remoteRef = B76740442098CE500060DBD9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B767404D2098CE590060DBD9 /* FourierMachines_Ani_Client_MotionGraphics.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FourierMachines_Ani_Client_MotionGraphics.framework;
+			remoteRef = B767404C2098CE590060DBD9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B767404F2098CE590060DBD9 /* FourierMachines.Ani.Client.MotionGraphicsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = FourierMachines.Ani.Client.MotionGraphicsTests.xctest;
+			remoteRef = B767404E2098CE590060DBD9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B76740562098CE620060DBD9 /* FourierMachines_Ani_Client_Scheduler.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FourierMachines_Ani_Client_Scheduler.framework;
+			remoteRef = B76740552098CE620060DBD9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B76740582098CE620060DBD9 /* FourierMachines.Ani.Client.SchedulerTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = FourierMachines.Ani.Client.SchedulerTests.xctest;
+			remoteRef = B76740572098CE620060DBD9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B767405F2098CE6B0060DBD9 /* FourierMachunes_Ani_Client_Studio.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FourierMachunes_Ani_Client_Studio.framework;
+			remoteRef = B767405E2098CE6B0060DBD9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B76740612098CE6B0060DBD9 /* FourierMachunes.Ani.Client.StudioTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = FourierMachunes.Ani.Client.StudioTests.xctest;
+			remoteRef = B76740602098CE6B0060DBD9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7673FCE2098CDF30060DBD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7B4D30B249BE6EE00CB11FC /* The_Vamps_-_Paper_Hearts_(Lyric_Video).mp3 in Resources */,
+				B7DCD4FD2316DA1800A733B3 /* Choreogram.B in Resources */,
+				B7B4D309249BE6EE00CB11FC /* Coldplay - Always In My Head(Lyrics Video).mp3 in Resources */,
+				B7DCD4FE2316DA1800A733B3 /* EmSynth.B in Resources */,
+				B7B4D30C249BE6EE00CB11FC /* Ellie Goulding - Still Falling For You.mp3 in Resources */,
+				B7B4D30A249BE6EE00CB11FC /* Grimes - California.mp3 in Resources */,
+				B7DCD4FF2316DA1800A733B3 /* Teltale.B in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7673FD72098CDF30060DBD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		528DFE1E66471CC8A24EA302 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FourierMachines.Ani.Client.System-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A248995E2B097C92BC5381FB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FourierMachines.Ani.Client.SystemTests/Pods-FourierMachines.Ani.Client.SystemTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FourierMachines.Ani.Client.SystemTests/Pods-FourierMachines.Ani.Client.SystemTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4BA100C99412D9D50D5676F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FourierMachines.Ani.Client.SystemTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7673FCB2098CDF30060DBD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7B5763322AE273900362646 /* ChoreogramJob.swift in Sources */,
+				B7B5764D22AE825400362646 /* AudioContextConveyHandler.swift in Sources */,
+				B7B5765722AFB7CF00362646 /* UIChoreogramHandler.swift in Sources */,
+				B769497A240B81B000A28B86 /* UIBotUploadHandler.swift in Sources */,
+				B76740182098CE1C0060DBD9 /* ApplicationStateDelegate.swift in Sources */,
+				B7B5765B22AFB8DF00362646 /* ChoreogramRead.swift in Sources */,
+				B76740122098CE1C0060DBD9 /* UIMainModuleHandler.swift in Sources */,
+				B71A89FC20D5399B00D0020B /* IDLEAnimationJob.swift in Sources */,
+				B767401B2098CE1C0060DBD9 /* ApplicationStateListener.swift in Sources */,
+				B7DB1B1E209EF9700091E855 /* AniUIRead.swift in Sources */,
+				B76740DE2098DFCB0060DBD9 /* UIMAINConvey.swift in Sources */,
+				B76740152098CE1C0060DBD9 /* APP_STATE.swift in Sources */,
+				B76740B72098D9E20060DBD9 /* SystemFlowManager.swift in Sources */,
+				B7BBC40A2309B222004D65B3 /* AniUIConvey.swift in Sources */,
+				B7E6F0082275AEF600153A92 /* BrowseAnimationsJob.swift in Sources */,
+				B769496B240B814D00A28B86 /* UIBotUploadConvey.swift in Sources */,
+				B7B5765922AFB80B00362646 /* UIChoreogramConvey.swift in Sources */,
+				B784E61E22BCD4F700ADCBC4 /* BotConnectionHandler.swift in Sources */,
+				B7E6F00A2275F15500153A92 /* AddEmotionJob.swift in Sources */,
+				B767400D2098CE1C0060DBD9 /* DispatcherHelper.swift in Sources */,
+				B76740112098CE1C0060DBD9 /* ApplicationStateHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7673FD52098CDF30060DBD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7673FDF2098CDF30060DBD9 /* FourierMachines_Ani_Client_SystemTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7673FDC2098CDF30060DBD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7673FCF2098CDF30060DBD9 /* FourierMachines.Ani.Client.System */;
+			targetProxy = B7673FDB2098CDF30060DBD9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B7673FE22098CDF30060DBD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B7673FE32098CDF30060DBD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B7673FE52098CDF30060DBD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99B5EACC74855EE8E3750922 /* Pods-FourierMachines.Ani.Client.System.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2WTB6PH23C;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FourierMachines.Ani.Client.System/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "FourierMachines.FourierMachines-Ani-Client-System";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7673FE62098CDF30060DBD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4B1075F9A578D675214EDB3 /* Pods-FourierMachines.Ani.Client.System.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2WTB6PH23C;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FourierMachines.Ani.Client.System/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "FourierMachines.FourierMachines-Ani-Client-System";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B7673FE82098CDF30060DBD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 607EF5A23229EE6E3E9E5527 /* Pods-FourierMachines.Ani.Client.SystemTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2WTB6PH23C;
+				INFOPLIST_FILE = FourierMachines.Ani.Client.SystemTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "FourierMachines.FourierMachines-Ani-Client-SystemTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7673FE92098CDF30060DBD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 525165EE99F239613DE7DC1C /* Pods-FourierMachines.Ani.Client.SystemTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2WTB6PH23C;
+				INFOPLIST_FILE = FourierMachines.Ani.Client.SystemTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "FourierMachines.FourierMachines-Ani-Client-SystemTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7673FCA2098CDF30060DBD9 /* Build configuration list for PBXProject "FourierMachines.Ani.Client.System" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7673FE22098CDF30060DBD9 /* Debug */,
+				B7673FE32098CDF30060DBD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7673FE42098CDF30060DBD9 /* Build configuration list for PBXNativeTarget "FourierMachines.Ani.Client.System" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7673FE52098CDF30060DBD9 /* Debug */,
+				B7673FE62098CDF30060DBD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7673FE72098CDF30060DBD9 /* Build configuration list for PBXNativeTarget "FourierMachines.Ani.Client.SystemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7673FE82098CDF30060DBD9 /* Debug */,
+				B7673FE92098CDF30060DBD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7673FC72098CDF30060DBD9 /* Project object */;
+}

@@ -1,0 +1,659 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7BBC3BC23003AA8004D65B3 /* FourierMachines_Ani_Client_BotConnect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7BBC3B223003AA8004D65B3 /* FourierMachines_Ani_Client_BotConnect.framework */; };
+		B7BBC3C123003AA8004D65B3 /* FourierMachines_Ani_Client_BotConnectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BBC3C023003AA8004D65B3 /* FourierMachines_Ani_Client_BotConnectTests.swift */; };
+		B7BBC3C323003AA8004D65B3 /* FourierMachines_Ani_Client_BotConnect.h in Headers */ = {isa = PBXBuildFile; fileRef = B7BBC3B523003AA8004D65B3 /* FourierMachines_Ani_Client_BotConnect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7BBC3E823003CEA004D65B3 /* BotConnectAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BBC3E723003CEA004D65B3 /* BotConnectAccess.swift */; };
+		B7BBC3EA23003CFA004D65B3 /* BotConnectImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BBC3E923003CFA004D65B3 /* BotConnectImplementation.swift */; };
+		B7BBC3F3230065AC004D65B3 /* BotDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BBC3F2230065AC004D65B3 /* BotDetails.swift */; };
+		B7BBC3F5230065F4004D65B3 /* BotConnectManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BBC3F4230065F4004D65B3 /* BotConnectManager.swift */; };
+		B7BBC3F72300675C004D65B3 /* BotConnectConvey.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BBC3F62300675C004D65B3 /* BotConnectConvey.swift */; };
+		B7BBC40723071FD2004D65B3 /* BotError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BBC40623071FD2004D65B3 /* BotError.swift */; };
+		B7DCD63D232CC19300A733B3 /* FourierMachines_Ani_Client_BOIP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7DCD63C232CC19300A733B3 /* FourierMachines_Ani_Client_BOIP.framework */; };
+		B7DCD6A2232CCE7100A733B3 /* RxFrameParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD683232CCE7000A733B3 /* RxFrameParser.swift */; };
+		B7DCD6A4232CCE7100A733B3 /* DATA.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD686232CCE7000A733B3 /* DATA.swift */; };
+		B7DCD6A6232CCE7100A733B3 /* REQEST_UPLOAD.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD688232CCE7000A733B3 /* REQEST_UPLOAD.swift */; };
+		B7DCD6A7232CCE7100A733B3 /* COMMAND.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD689232CCE7000A733B3 /* COMMAND.swift */; };
+		B7DCD6A9232CCE7100A733B3 /* CATEGORY.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD68B232CCE7000A733B3 /* CATEGORY.swift */; };
+		B7DCD6AA232CCE7100A733B3 /* UPLOAD_END.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD68C232CCE7000A733B3 /* UPLOAD_END.swift */; };
+		B7DCD6AC232CCE7100A733B3 /* TxBaseFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD68E232CCE7000A733B3 /* TxBaseFrame.swift */; };
+		B7DCD6AE232CCE7100A733B3 /* COMMAND_ACK.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD691232CCE7000A733B3 /* COMMAND_ACK.swift */; };
+		B7DCD6AF232CCE7100A733B3 /* RxBaseFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD692232CCE7000A733B3 /* RxBaseFrame.swift */; };
+		B7DCD6B0232CCE7100A733B3 /* REQEST_UPLOAD_ACK.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD693232CCE7000A733B3 /* REQEST_UPLOAD_ACK.swift */; };
+		B7DCD6B1232CCE7100A733B3 /* UPLOAD_END_ACK.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD694232CCE7000A733B3 /* UPLOAD_END_ACK.swift */; };
+		B7DCD6B3232CCE7100A733B3 /* DATA_ACK.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD696232CCE7000A733B3 /* DATA_ACK.swift */; };
+		B7DCD6B4232CCE7100A733B3 /* CATEGORY_ACK.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD697232CCE7000A733B3 /* CATEGORY_ACK.swift */; };
+		B7DCD6B8232CCE7100A733B3 /* ACK.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD69D232CCE7100A733B3 /* ACK.swift */; };
+		B7DCD6B9232CCE7100A733B3 /* ANSTMSG.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD69E232CCE7100A733B3 /* ANSTMSG.swift */; };
+		B7DCD6BA232CCE7100A733B3 /* ANIMSG.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD69F232CCE7100A733B3 /* ANIMSG.swift */; };
+		B7DCD6BB232CCE7100A733B3 /* COMMAND_TYPES.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD6A0232CCE7100A733B3 /* COMMAND_TYPES.swift */; };
+		B7DCD6BC232CCE7100A733B3 /* CATEGORY_TYPES.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD6A1232CCE7100A733B3 /* CATEGORY_TYPES.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7BBC3BD23003AA8004D65B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7BBC3A923003AA8004D65B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7BBC3B123003AA8004D65B3;
+			remoteInfo = FourierMachines.Ani.Client.BotConnect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B7BBC3B223003AA8004D65B3 /* FourierMachines_Ani_Client_BotConnect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FourierMachines_Ani_Client_BotConnect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7BBC3B523003AA8004D65B3 /* FourierMachines_Ani_Client_BotConnect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourierMachines_Ani_Client_BotConnect.h; sourceTree = "<group>"; };
+		B7BBC3B623003AA8004D65B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7BBC3BB23003AA8004D65B3 /* FourierMachines.Ani.Client.BotConnectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FourierMachines.Ani.Client.BotConnectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7BBC3C023003AA8004D65B3 /* FourierMachines_Ani_Client_BotConnectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourierMachines_Ani_Client_BotConnectTests.swift; sourceTree = "<group>"; };
+		B7BBC3C223003AA8004D65B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7BBC3E323003B3E004D65B3 /* FourierMachines_Ani_Client_Mqtt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FourierMachines_Ani_Client_Mqtt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7BBC3E723003CEA004D65B3 /* BotConnectAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotConnectAccess.swift; sourceTree = "<group>"; };
+		B7BBC3E923003CFA004D65B3 /* BotConnectImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotConnectImplementation.swift; sourceTree = "<group>"; };
+		B7BBC3F2230065AC004D65B3 /* BotDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotDetails.swift; sourceTree = "<group>"; };
+		B7BBC3F4230065F4004D65B3 /* BotConnectManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotConnectManager.swift; sourceTree = "<group>"; };
+		B7BBC3F62300675C004D65B3 /* BotConnectConvey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BotConnectConvey.swift; sourceTree = "<group>"; };
+		B7BBC40623071FD2004D65B3 /* BotError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotError.swift; sourceTree = "<group>"; };
+		B7DCD63C232CC19300A733B3 /* FourierMachines_Ani_Client_BOIP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FourierMachines_Ani_Client_BOIP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7DCD683232CCE7000A733B3 /* RxFrameParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxFrameParser.swift; sourceTree = "<group>"; };
+		B7DCD686232CCE7000A733B3 /* DATA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DATA.swift; sourceTree = "<group>"; };
+		B7DCD688232CCE7000A733B3 /* REQEST_UPLOAD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = REQEST_UPLOAD.swift; sourceTree = "<group>"; };
+		B7DCD689232CCE7000A733B3 /* COMMAND.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = COMMAND.swift; sourceTree = "<group>"; };
+		B7DCD68B232CCE7000A733B3 /* CATEGORY.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CATEGORY.swift; sourceTree = "<group>"; };
+		B7DCD68C232CCE7000A733B3 /* UPLOAD_END.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UPLOAD_END.swift; sourceTree = "<group>"; };
+		B7DCD68E232CCE7000A733B3 /* TxBaseFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TxBaseFrame.swift; sourceTree = "<group>"; };
+		B7DCD691232CCE7000A733B3 /* COMMAND_ACK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = COMMAND_ACK.swift; sourceTree = "<group>"; };
+		B7DCD692232CCE7000A733B3 /* RxBaseFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxBaseFrame.swift; sourceTree = "<group>"; };
+		B7DCD693232CCE7000A733B3 /* REQEST_UPLOAD_ACK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = REQEST_UPLOAD_ACK.swift; sourceTree = "<group>"; };
+		B7DCD694232CCE7000A733B3 /* UPLOAD_END_ACK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UPLOAD_END_ACK.swift; sourceTree = "<group>"; };
+		B7DCD696232CCE7000A733B3 /* DATA_ACK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DATA_ACK.swift; sourceTree = "<group>"; };
+		B7DCD697232CCE7000A733B3 /* CATEGORY_ACK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CATEGORY_ACK.swift; sourceTree = "<group>"; };
+		B7DCD69D232CCE7100A733B3 /* ACK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACK.swift; sourceTree = "<group>"; };
+		B7DCD69E232CCE7100A733B3 /* ANSTMSG.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ANSTMSG.swift; sourceTree = "<group>"; };
+		B7DCD69F232CCE7100A733B3 /* ANIMSG.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ANIMSG.swift; sourceTree = "<group>"; };
+		B7DCD6A0232CCE7100A733B3 /* COMMAND_TYPES.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = COMMAND_TYPES.swift; sourceTree = "<group>"; };
+		B7DCD6A1232CCE7100A733B3 /* CATEGORY_TYPES.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CATEGORY_TYPES.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7BBC3AF23003AA8004D65B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7DCD63D232CC19300A733B3 /* FourierMachines_Ani_Client_BOIP.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7BBC3B823003AA8004D65B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7BBC3BC23003AA8004D65B3 /* FourierMachines_Ani_Client_BotConnect.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7BBC3A823003AA8004D65B3 = {
+			isa = PBXGroup;
+			children = (
+				B7BBC3B423003AA8004D65B3 /* FourierMachines.Ani.Client.BotConnect */,
+				B7BBC3BF23003AA8004D65B3 /* FourierMachines.Ani.Client.BotConnectTests */,
+				B7BBC3B323003AA8004D65B3 /* Products */,
+				B7BBC3E223003B3E004D65B3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B7BBC3B323003AA8004D65B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7BBC3B223003AA8004D65B3 /* FourierMachines_Ani_Client_BotConnect.framework */,
+				B7BBC3BB23003AA8004D65B3 /* FourierMachines.Ani.Client.BotConnectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7BBC3B423003AA8004D65B3 /* FourierMachines.Ani.Client.BotConnect */ = {
+			isa = PBXGroup;
+			children = (
+				B7BBC3E523003B51004D65B3 /* FrameworkImplementation */,
+				B7BBC3E623003B67004D65B3 /* Framework */,
+				B7BBC3B523003AA8004D65B3 /* FourierMachines_Ani_Client_BotConnect.h */,
+				B7BBC3B623003AA8004D65B3 /* Info.plist */,
+			);
+			path = FourierMachines.Ani.Client.BotConnect;
+			sourceTree = "<group>";
+		};
+		B7BBC3BF23003AA8004D65B3 /* FourierMachines.Ani.Client.BotConnectTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7BBC3C023003AA8004D65B3 /* FourierMachines_Ani_Client_BotConnectTests.swift */,
+				B7BBC3C223003AA8004D65B3 /* Info.plist */,
+			);
+			path = FourierMachines.Ani.Client.BotConnectTests;
+			sourceTree = "<group>";
+		};
+		B7BBC3E223003B3E004D65B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7DCD63C232CC19300A733B3 /* FourierMachines_Ani_Client_BOIP.framework */,
+				B7BBC3E323003B3E004D65B3 /* FourierMachines_Ani_Client_Mqtt.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7BBC3E523003B51004D65B3 /* FrameworkImplementation */ = {
+			isa = PBXGroup;
+			children = (
+				B7DCD644232CCE2C00A733B3 /* DataTypes */,
+				B7BBC3E723003CEA004D65B3 /* BotConnectAccess.swift */,
+				B7BBC3E923003CFA004D65B3 /* BotConnectImplementation.swift */,
+			);
+			path = FrameworkImplementation;
+			sourceTree = "<group>";
+		};
+		B7BBC3E623003B67004D65B3 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				B7BBC3F123006590004D65B3 /* DataTypes */,
+				B7BBC3F4230065F4004D65B3 /* BotConnectManager.swift */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		B7BBC3F123006590004D65B3 /* DataTypes */ = {
+			isa = PBXGroup;
+			children = (
+				B7BBC3F2230065AC004D65B3 /* BotDetails.swift */,
+			);
+			path = DataTypes;
+			sourceTree = "<group>";
+		};
+		B7DCD644232CCE2C00A733B3 /* DataTypes */ = {
+			isa = PBXGroup;
+			children = (
+				B7DCD69A232CCE7000A733B3 /* Delgates */,
+				B7DCD69C232CCE7100A733B3 /* Enums */,
+				B7DCD681232CCE7000A733B3 /* FrameParsers */,
+			);
+			path = DataTypes;
+			sourceTree = "<group>";
+		};
+		B7DCD681232CCE7000A733B3 /* FrameParsers */ = {
+			isa = PBXGroup;
+			children = (
+				B7DCD682232CCE7000A733B3 /* Parsers */,
+				B7DCD684232CCE7000A733B3 /* TxFrames */,
+				B7DCD68F232CCE7000A733B3 /* RxFrames */,
+			);
+			path = FrameParsers;
+			sourceTree = "<group>";
+		};
+		B7DCD682232CCE7000A733B3 /* Parsers */ = {
+			isa = PBXGroup;
+			children = (
+				B7DCD683232CCE7000A733B3 /* RxFrameParser.swift */,
+			);
+			path = Parsers;
+			sourceTree = "<group>";
+		};
+		B7DCD684232CCE7000A733B3 /* TxFrames */ = {
+			isa = PBXGroup;
+			children = (
+				B7DCD686232CCE7000A733B3 /* DATA.swift */,
+				B7DCD688232CCE7000A733B3 /* REQEST_UPLOAD.swift */,
+				B7DCD689232CCE7000A733B3 /* COMMAND.swift */,
+				B7DCD68B232CCE7000A733B3 /* CATEGORY.swift */,
+				B7DCD68C232CCE7000A733B3 /* UPLOAD_END.swift */,
+				B7DCD68E232CCE7000A733B3 /* TxBaseFrame.swift */,
+			);
+			path = TxFrames;
+			sourceTree = "<group>";
+		};
+		B7DCD68F232CCE7000A733B3 /* RxFrames */ = {
+			isa = PBXGroup;
+			children = (
+				B7DCD691232CCE7000A733B3 /* COMMAND_ACK.swift */,
+				B7DCD692232CCE7000A733B3 /* RxBaseFrame.swift */,
+				B7DCD693232CCE7000A733B3 /* REQEST_UPLOAD_ACK.swift */,
+				B7DCD694232CCE7000A733B3 /* UPLOAD_END_ACK.swift */,
+				B7DCD696232CCE7000A733B3 /* DATA_ACK.swift */,
+				B7DCD697232CCE7000A733B3 /* CATEGORY_ACK.swift */,
+			);
+			path = RxFrames;
+			sourceTree = "<group>";
+		};
+		B7DCD69A232CCE7000A733B3 /* Delgates */ = {
+			isa = PBXGroup;
+			children = (
+				B7BBC3F62300675C004D65B3 /* BotConnectConvey.swift */,
+			);
+			path = Delgates;
+			sourceTree = "<group>";
+		};
+		B7DCD69C232CCE7100A733B3 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				B7BBC40623071FD2004D65B3 /* BotError.swift */,
+				B7DCD69D232CCE7100A733B3 /* ACK.swift */,
+				B7DCD69E232CCE7100A733B3 /* ANSTMSG.swift */,
+				B7DCD69F232CCE7100A733B3 /* ANIMSG.swift */,
+				B7DCD6A0232CCE7100A733B3 /* COMMAND_TYPES.swift */,
+				B7DCD6A1232CCE7100A733B3 /* CATEGORY_TYPES.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B7BBC3AD23003AA8004D65B3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7BBC3C323003AA8004D65B3 /* FourierMachines_Ani_Client_BotConnect.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B7BBC3B123003AA8004D65B3 /* FourierMachines.Ani.Client.BotConnect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7BBC3C623003AA8004D65B3 /* Build configuration list for PBXNativeTarget "FourierMachines.Ani.Client.BotConnect" */;
+			buildPhases = (
+				B7BBC3AD23003AA8004D65B3 /* Headers */,
+				B7BBC3AE23003AA8004D65B3 /* Sources */,
+				B7BBC3AF23003AA8004D65B3 /* Frameworks */,
+				B7BBC3B023003AA8004D65B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FourierMachines.Ani.Client.BotConnect;
+			productName = FourierMachines.Ani.Client.BotConnect;
+			productReference = B7BBC3B223003AA8004D65B3 /* FourierMachines_Ani_Client_BotConnect.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B7BBC3BA23003AA8004D65B3 /* FourierMachines.Ani.Client.BotConnectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7BBC3C923003AA8004D65B3 /* Build configuration list for PBXNativeTarget "FourierMachines.Ani.Client.BotConnectTests" */;
+			buildPhases = (
+				B7BBC3B723003AA8004D65B3 /* Sources */,
+				B7BBC3B823003AA8004D65B3 /* Frameworks */,
+				B7BBC3B923003AA8004D65B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7BBC3BE23003AA8004D65B3 /* PBXTargetDependency */,
+			);
+			name = FourierMachines.Ani.Client.BotConnectTests;
+			productName = FourierMachines.Ani.Client.BotConnectTests;
+			productReference = B7BBC3BB23003AA8004D65B3 /* FourierMachines.Ani.Client.BotConnectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7BBC3A923003AA8004D65B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = FourierMachines;
+				TargetAttributes = {
+					B7BBC3B123003AA8004D65B3 = {
+						CreatedOnToolsVersion = 10.2;
+						LastSwiftMigration = 1020;
+					};
+					B7BBC3BA23003AA8004D65B3 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = B7BBC3AC23003AA8004D65B3 /* Build configuration list for PBXProject "FourierMachines.Ani.Client.BotConnect" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7BBC3A823003AA8004D65B3;
+			productRefGroup = B7BBC3B323003AA8004D65B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7BBC3B123003AA8004D65B3 /* FourierMachines.Ani.Client.BotConnect */,
+				B7BBC3BA23003AA8004D65B3 /* FourierMachines.Ani.Client.BotConnectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7BBC3B023003AA8004D65B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7BBC3B923003AA8004D65B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7BBC3AE23003AA8004D65B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7DCD6AC232CCE7100A733B3 /* TxBaseFrame.swift in Sources */,
+				B7DCD6BB232CCE7100A733B3 /* COMMAND_TYPES.swift in Sources */,
+				B7BBC3F5230065F4004D65B3 /* BotConnectManager.swift in Sources */,
+				B7DCD6B9232CCE7100A733B3 /* ANSTMSG.swift in Sources */,
+				B7BBC3EA23003CFA004D65B3 /* BotConnectImplementation.swift in Sources */,
+				B7DCD6A2232CCE7100A733B3 /* RxFrameParser.swift in Sources */,
+				B7DCD6B0232CCE7100A733B3 /* REQEST_UPLOAD_ACK.swift in Sources */,
+				B7DCD6AA232CCE7100A733B3 /* UPLOAD_END.swift in Sources */,
+				B7DCD6B1232CCE7100A733B3 /* UPLOAD_END_ACK.swift in Sources */,
+				B7DCD6B8232CCE7100A733B3 /* ACK.swift in Sources */,
+				B7DCD6A9232CCE7100A733B3 /* CATEGORY.swift in Sources */,
+				B7BBC3F72300675C004D65B3 /* BotConnectConvey.swift in Sources */,
+				B7BBC3E823003CEA004D65B3 /* BotConnectAccess.swift in Sources */,
+				B7DCD6A7232CCE7100A733B3 /* COMMAND.swift in Sources */,
+				B7DCD6B4232CCE7100A733B3 /* CATEGORY_ACK.swift in Sources */,
+				B7BBC40723071FD2004D65B3 /* BotError.swift in Sources */,
+				B7DCD6BC232CCE7100A733B3 /* CATEGORY_TYPES.swift in Sources */,
+				B7DCD6B3232CCE7100A733B3 /* DATA_ACK.swift in Sources */,
+				B7DCD6AE232CCE7100A733B3 /* COMMAND_ACK.swift in Sources */,
+				B7DCD6AF232CCE7100A733B3 /* RxBaseFrame.swift in Sources */,
+				B7DCD6A6232CCE7100A733B3 /* REQEST_UPLOAD.swift in Sources */,
+				B7DCD6BA232CCE7100A733B3 /* ANIMSG.swift in Sources */,
+				B7BBC3F3230065AC004D65B3 /* BotDetails.swift in Sources */,
+				B7DCD6A4232CCE7100A733B3 /* DATA.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7BBC3B723003AA8004D65B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7BBC3C123003AA8004D65B3 /* FourierMachines_Ani_Client_BotConnectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7BBC3BE23003AA8004D65B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7BBC3B123003AA8004D65B3 /* FourierMachines.Ani.Client.BotConnect */;
+			targetProxy = B7BBC3BD23003AA8004D65B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B7BBC3C423003AA8004D65B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B7BBC3C523003AA8004D65B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B7BBC3C723003AA8004D65B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2WTB6PH23C;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FourierMachines.Ani.Client.BotConnect/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FourierMachines.AniStudio.FourierMachines-Ani-Client-BotConnect";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7BBC3C823003AA8004D65B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2WTB6PH23C;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FourierMachines.Ani.Client.BotConnect/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FourierMachines.AniStudio.FourierMachines-Ani-Client-BotConnect";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B7BBC3CA23003AA8004D65B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2WTB6PH23C;
+				INFOPLIST_FILE = FourierMachines.Ani.Client.BotConnectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FourierMachines.AniStudio.FourierMachines-Ani-Client-BotConnectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7BBC3CB23003AA8004D65B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2WTB6PH23C;
+				INFOPLIST_FILE = FourierMachines.Ani.Client.BotConnectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FourierMachines.AniStudio.FourierMachines-Ani-Client-BotConnectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7BBC3AC23003AA8004D65B3 /* Build configuration list for PBXProject "FourierMachines.Ani.Client.BotConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7BBC3C423003AA8004D65B3 /* Debug */,
+				B7BBC3C523003AA8004D65B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7BBC3C623003AA8004D65B3 /* Build configuration list for PBXNativeTarget "FourierMachines.Ani.Client.BotConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7BBC3C723003AA8004D65B3 /* Debug */,
+				B7BBC3C823003AA8004D65B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7BBC3C923003AA8004D65B3 /* Build configuration list for PBXNativeTarget "FourierMachines.Ani.Client.BotConnectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7BBC3CA23003AA8004D65B3 /* Debug */,
+				B7BBC3CB23003AA8004D65B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7BBC3A923003AA8004D65B3 /* Project object */;
+}

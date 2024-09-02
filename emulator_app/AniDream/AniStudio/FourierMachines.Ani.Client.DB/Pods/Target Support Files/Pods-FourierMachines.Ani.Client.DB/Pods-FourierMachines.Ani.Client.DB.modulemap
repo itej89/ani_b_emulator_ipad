@@ -1,0 +1,6 @@
+framework module Pods_FourierMachines_Ani_Client_DB {
+  umbrella header "Pods-FourierMachines.Ani.Client.DB-umbrella.h"
+
+  export *
+  module * { export * }
+}

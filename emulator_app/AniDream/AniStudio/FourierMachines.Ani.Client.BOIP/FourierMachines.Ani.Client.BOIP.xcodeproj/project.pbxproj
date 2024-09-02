@@ -1,0 +1,941 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7DCD515231948C000A733B3 /* FourierMachines_Ani_Client_BOIP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7DCD50B231948C000A733B3 /* FourierMachines_Ani_Client_BOIP.framework */; };
+		B7DCD51A231948C000A733B3 /* FourierMachines_Ani_Client_BOIPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD519231948C000A733B3 /* FourierMachines_Ani_Client_BOIPTests.swift */; };
+		B7DCD51C231948C000A733B3 /* FourierMachines_Ani_Client_BOIP.h in Headers */ = {isa = PBXBuildFile; fileRef = B7DCD50E231948C000A733B3 /* FourierMachines_Ani_Client_BOIP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7DCD54B23194F3500A733B3 /* DOIP_Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD54A23194F3500A733B3 /* DOIP_Configuration.swift */; };
+		B7DCD54D231950E600A733B3 /* DOIPParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD54C231950E600A733B3 /* DOIPParameters.swift */; };
+		B7DCD5542319576900A733B3 /* ADDRESSING_TYPES.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD5532319576900A733B3 /* ADDRESSING_TYPES.swift */; };
+		B7DCD5562319582E00A733B3 /* DOIPRequestObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD5552319582E00A733B3 /* DOIPRequestObject.swift */; };
+		B7DCD558231958F900A733B3 /* Request_Payload_Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD557231958F900A733B3 /* Request_Payload_Types.swift */; };
+		B7DCD55A2319590A00A733B3 /* Response_Payload_Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD5592319590A00A733B3 /* Response_Payload_Types.swift */; };
+		B7DCD55C23195E9200A733B3 /* PayloadObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD55B23195E9200A733B3 /* PayloadObject.swift */; };
+		B7DCD55E23195EE800A733B3 /* ValidationRuleMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD55D23195EE800A733B3 /* ValidationRuleMessage.swift */; };
+		B7DCD56023195F0C00A733B3 /* STATUS_CODES.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD55F23195F0C00A733B3 /* STATUS_CODES.swift */; };
+		B7DCD566231962A700A733B3 /* Activation_Request_Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD565231962A700A733B3 /* Activation_Request_Types.swift */; };
+		B7DCD5682319654D00A733B3 /* Vehicle_Announce_Further_Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD5672319654D00A733B3 /* Vehicle_Announce_Further_Actions.swift */; };
+		B7DCD56A231967AD00A733B3 /* Vehicle_Identification_Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD569231967AD00A733B3 /* Vehicle_Identification_Types.swift */; };
+		B7DCD56C231968E500A733B3 /* Activation_Response_Codes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD56B231968E500A733B3 /* Activation_Response_Codes.swift */; };
+		B7DCD56E23196ABA00A733B3 /* Diagnostic_ACK_Code.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD56D23196ABA00A733B3 /* Diagnostic_ACK_Code.swift */; };
+		B7DCD57023196B7C00A733B3 /* Diagnostic_NAK_Codes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD56F23196B7C00A733B3 /* Diagnostic_NAK_Codes.swift */; };
+		B7DCD57223196CAF00A733B3 /* Diagnostic_Power_Mode_Values.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD57123196CAF00A733B3 /* Diagnostic_Power_Mode_Values.swift */; };
+		B7DCD57423196D9400A733B3 /* DOIP_Status_Node_Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD57323196D9400A733B3 /* DOIP_Status_Node_Type.swift */; };
+		B7DCD57623196E5300A733B3 /* NAK_Codes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD57523196E5300A733B3 /* NAK_Codes.swift */; };
+		B7DCD57F231988AB00A733B3 /* ValidationRuleMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD57E231988AB00A733B3 /* ValidationRuleMessages.swift */; };
+		B7DCD582231989C800A733B3 /* IValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD581231989C800A733B3 /* IValidation.swift */; };
+		B7DCD58423198DE600A733B3 /* Payload_Item_Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD58323198DE600A733B3 /* Payload_Item_Type.swift */; };
+		B7DCD58623199C1200A733B3 /* Payload_Diagnostic_Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD58523199C1200A733B3 /* Payload_Diagnostic_Message.swift */; };
+		B7DCD5882319A51D00A733B3 /* Payload_Vehicle_Request_VIN.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD5872319A51D00A733B3 /* Payload_Vehicle_Request_VIN.swift */; };
+		B7DCD58A2319A5B400A733B3 /* Payload_Vehicle_Request_EID.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD5892319A5B400A733B3 /* Payload_Vehicle_Request_EID.swift */; };
+		B7DCD58C2319A5F300A733B3 /* Payload_Routing_Activation_Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD58B2319A5F300A733B3 /* Payload_Routing_Activation_Request.swift */; };
+		B7DCD58E2319AABE00A733B3 /* Payload_Alive_Check_Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD58D2319AABE00A733B3 /* Payload_Alive_Check_Response.swift */; };
+		B7DCD5902319AD6900A733B3 /* Payload_Vehicle_Announcement.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD58F2319AD6900A733B3 /* Payload_Vehicle_Announcement.swift */; };
+		B7DCD592231A114600A733B3 /* Payload_Routing_Activation_Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD591231A114600A733B3 /* Payload_Routing_Activation_Response.swift */; };
+		B7DCD594231A138900A733B3 /* Payload_Generic_Header_NACK.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD593231A138900A733B3 /* Payload_Generic_Header_NACK.swift */; };
+		B7DCD596231A148D00A733B3 /* Payload_Diagnostic_Status_Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD595231A148D00A733B3 /* Payload_Diagnostic_Status_Response.swift */; };
+		B7DCD598231A173A00A733B3 /* Payload_Diagnostic_Power_Mode_Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD597231A173A00A733B3 /* Payload_Diagnostic_Power_Mode_Response.swift */; };
+		B7DCD59A231A18C300A733B3 /* Payload_Diagnostic_Message_Nack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD599231A18C300A733B3 /* Payload_Diagnostic_Message_Nack.swift */; };
+		B7DCD59C231A1FC500A733B3 /* Payload_Diagnostic_Message_Ack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD59B231A1FC400A733B3 /* Payload_Diagnostic_Message_Ack.swift */; };
+		B7DCD59E231A204600A733B3 /* Request_Payload_Type_To_Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD59D231A204600A733B3 /* Request_Payload_Type_To_Object.swift */; };
+		B7DCD5A0231A233200A733B3 /* Response_Payload_Type_To_Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD59F231A233200A733B3 /* Response_Payload_Type_To_Object.swift */; };
+		B7DCD5A2231A26D100A733B3 /* DOIPResponseObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD5A1231A26D100A733B3 /* DOIPResponseObject.swift */; };
+		B7DCD5A4231A297A00A733B3 /* DOIPFrameParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD5A3231A297A00A733B3 /* DOIPFrameParser.swift */; };
+		B7DCD5B9231A2FD300A733B3 /* DOIPFrameSynthesizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD5B8231A2FD300A733B3 /* DOIPFrameSynthesizer.swift */; };
+		B7DCD5BC231A3F6B00A733B3 /* TransportLayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD5BB231A3F6B00A733B3 /* TransportLayerHelper.swift */; };
+		B7DCD5E1231A4F5B00A733B3 /* TCPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD5E0231A4F5B00A733B3 /* TCPClient.swift */; };
+		B7DCD5E4231A502B00A733B3 /* IPEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD5E3231A502B00A733B3 /* IPEndPoint.swift */; };
+		B7DCD5E6231A620300A733B3 /* DOIPSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD5E5231A620300A733B3 /* DOIPSession.swift */; };
+		B7DCD5E8231A6E9B00A733B3 /* RecievedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD5E7231A6E9B00A733B3 /* RecievedData.swift */; };
+		B7DCD5EA231A6F4000A733B3 /* TransportClientConvey.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD5E9231A6F4000A733B3 /* TransportClientConvey.swift */; };
+		B7DCD5EC231AAC0E00A733B3 /* UDPListen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD5EB231AAC0E00A733B3 /* UDPListen.swift */; };
+		B7DCD5EE231AB7D100A733B3 /* UDPBroadcast.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD5ED231AB7D100A733B3 /* UDPBroadcast.swift */; };
+		B7DCD5F0231ABC1700A733B3 /* UDPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD5EF231ABC1700A733B3 /* UDPRequest.swift */; };
+		B7DCD5F5231ABD5700A733B3 /* DoIPGenericHeaderHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD5F4231ABD5700A733B3 /* DoIPGenericHeaderHandler.swift */; };
+		B7DCD5F7231AC26E00A733B3 /* IDiagState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD5F6231AC26E00A733B3 /* IDiagState.swift */; };
+		B7DCD5F9231AC27D00A733B3 /* IDiagStateForSendRecieve.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD5F8231AC27D00A733B3 /* IDiagStateForSendRecieve.swift */; };
+		B7DCD5FB231AD15B00A733B3 /* VehicleIdentificationDiagState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD5FA231AD15B00A733B3 /* VehicleIdentificationDiagState.swift */; };
+		B7DCD5FD231AD88E00A733B3 /* VehicleIdentificationWithVINDiagState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD5FC231AD88E00A733B3 /* VehicleIdentificationWithVINDiagState.swift */; };
+		B7DCD5FF231AD9E100A733B3 /* VehicleIdentificationWithEIDDiagState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD5FE231AD9E100A733B3 /* VehicleIdentificationWithEIDDiagState.swift */; };
+		B7DCD601231ADAC700A733B3 /* RoutingActivationDiagState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD600231ADAC700A733B3 /* RoutingActivationDiagState.swift */; };
+		B7DCD603231AE68400A733B3 /* GenericHeaderNAKDiagState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD602231AE68400A733B3 /* GenericHeaderNAKDiagState.swift */; };
+		B7DCD605231B6A2700A733B3 /* DoIPEntityStatusDiagState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD604231B6A2700A733B3 /* DoIPEntityStatusDiagState.swift */; };
+		B7DCD607231B6E3800A733B3 /* DiagPowerModeDiagState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD606231B6E3800A733B3 /* DiagPowerModeDiagState.swift */; };
+		B7DCD609231B6FC000A733B3 /* DiagnosticMessagesDiagState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD608231B6FC000A733B3 /* DiagnosticMessagesDiagState.swift */; };
+		B7DCD60B231BCC9500A733B3 /* DiagMessagePosACKDiagState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD60A231BCC9500A733B3 /* DiagMessagePosACKDiagState.swift */; };
+		B7DCD60D231BCDB000A733B3 /* DiagMessageNAKDiagState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD60C231BCDB000A733B3 /* DiagMessageNAKDiagState.swift */; };
+		B7DCD60F231BDEFC00A733B3 /* AliveCheckDiagState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD60E231BDEFC00A733B3 /* AliveCheckDiagState.swift */; };
+		B7DCD611231BF6AD00A733B3 /* DoIPTesterContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD610231BF6AD00A733B3 /* DoIPTesterContext.swift */; };
+		B7DCD613231C162000A733B3 /* DOIPContextConvey.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD612231C162000A733B3 /* DOIPContextConvey.swift */; };
+		B7DCD615231C3A7000A733B3 /* DOIPContextResultConvey.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD614231C3A7000A733B3 /* DOIPContextResultConvey.swift */; };
+		B7DCD627231CD41100A733B3 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7DCD626231CD41100A733B3 /* CocoaAsyncSocket.framework */; };
+		B7DCD62A231ECE7300A733B3 /* DOIPAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD629231ECE7300A733B3 /* DOIPAccess.swift */; };
+		B7DCD62F231FA0AA00A733B3 /* DOIPEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD62E231FA0AA00A733B3 /* DOIPEntity.swift */; };
+		B7DCD631231FA34300A733B3 /* DOIPAccessImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DCD630231FA34300A733B3 /* DOIPAccessImplementation.swift */; };
+		B7DCD6BE232D0A4500A733B3 /* FourierMachines_Ani_Client_Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7DCD6BD232D0A4500A733B3 /* FourierMachines_Ani_Client_Common.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7DCD516231948C000A733B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7DCD502231948C000A733B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7DCD50A231948C000A733B3;
+			remoteInfo = FourierMachines.Ani.Client.BOIP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B7DCD50B231948C000A733B3 /* FourierMachines_Ani_Client_BOIP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FourierMachines_Ani_Client_BOIP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7DCD50E231948C000A733B3 /* FourierMachines_Ani_Client_BOIP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourierMachines_Ani_Client_BOIP.h; sourceTree = "<group>"; };
+		B7DCD50F231948C000A733B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7DCD514231948C000A733B3 /* FourierMachines.Ani.Client.BOIPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FourierMachines.Ani.Client.BOIPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7DCD519231948C000A733B3 /* FourierMachines_Ani_Client_BOIPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourierMachines_Ani_Client_BOIPTests.swift; sourceTree = "<group>"; };
+		B7DCD51B231948C000A733B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7DCD54A23194F3500A733B3 /* DOIP_Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DOIP_Configuration.swift; sourceTree = "<group>"; };
+		B7DCD54C231950E600A733B3 /* DOIPParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DOIPParameters.swift; sourceTree = "<group>"; };
+		B7DCD5532319576900A733B3 /* ADDRESSING_TYPES.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADDRESSING_TYPES.swift; sourceTree = "<group>"; };
+		B7DCD5552319582E00A733B3 /* DOIPRequestObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DOIPRequestObject.swift; sourceTree = "<group>"; };
+		B7DCD557231958F900A733B3 /* Request_Payload_Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request_Payload_Types.swift; sourceTree = "<group>"; };
+		B7DCD5592319590A00A733B3 /* Response_Payload_Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response_Payload_Types.swift; sourceTree = "<group>"; };
+		B7DCD55B23195E9200A733B3 /* PayloadObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayloadObject.swift; sourceTree = "<group>"; };
+		B7DCD55D23195EE800A733B3 /* ValidationRuleMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationRuleMessage.swift; sourceTree = "<group>"; };
+		B7DCD55F23195F0C00A733B3 /* STATUS_CODES.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STATUS_CODES.swift; sourceTree = "<group>"; };
+		B7DCD565231962A700A733B3 /* Activation_Request_Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activation_Request_Types.swift; sourceTree = "<group>"; };
+		B7DCD5672319654D00A733B3 /* Vehicle_Announce_Further_Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle_Announce_Further_Actions.swift; sourceTree = "<group>"; };
+		B7DCD569231967AD00A733B3 /* Vehicle_Identification_Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle_Identification_Types.swift; sourceTree = "<group>"; };
+		B7DCD56B231968E500A733B3 /* Activation_Response_Codes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activation_Response_Codes.swift; sourceTree = "<group>"; };
+		B7DCD56D23196ABA00A733B3 /* Diagnostic_ACK_Code.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diagnostic_ACK_Code.swift; sourceTree = "<group>"; };
+		B7DCD56F23196B7C00A733B3 /* Diagnostic_NAK_Codes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diagnostic_NAK_Codes.swift; sourceTree = "<group>"; };
+		B7DCD57123196CAF00A733B3 /* Diagnostic_Power_Mode_Values.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diagnostic_Power_Mode_Values.swift; sourceTree = "<group>"; };
+		B7DCD57323196D9400A733B3 /* DOIP_Status_Node_Type.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DOIP_Status_Node_Type.swift; sourceTree = "<group>"; };
+		B7DCD57523196E5300A733B3 /* NAK_Codes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAK_Codes.swift; sourceTree = "<group>"; };
+		B7DCD57E231988AB00A733B3 /* ValidationRuleMessages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationRuleMessages.swift; sourceTree = "<group>"; };
+		B7DCD581231989C800A733B3 /* IValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IValidation.swift; sourceTree = "<group>"; };
+		B7DCD58323198DE600A733B3 /* Payload_Item_Type.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payload_Item_Type.swift; sourceTree = "<group>"; };
+		B7DCD58523199C1200A733B3 /* Payload_Diagnostic_Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payload_Diagnostic_Message.swift; sourceTree = "<group>"; };
+		B7DCD5872319A51D00A733B3 /* Payload_Vehicle_Request_VIN.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payload_Vehicle_Request_VIN.swift; sourceTree = "<group>"; };
+		B7DCD5892319A5B400A733B3 /* Payload_Vehicle_Request_EID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payload_Vehicle_Request_EID.swift; sourceTree = "<group>"; };
+		B7DCD58B2319A5F300A733B3 /* Payload_Routing_Activation_Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payload_Routing_Activation_Request.swift; sourceTree = "<group>"; };
+		B7DCD58D2319AABE00A733B3 /* Payload_Alive_Check_Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payload_Alive_Check_Response.swift; sourceTree = "<group>"; };
+		B7DCD58F2319AD6900A733B3 /* Payload_Vehicle_Announcement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payload_Vehicle_Announcement.swift; sourceTree = "<group>"; };
+		B7DCD591231A114600A733B3 /* Payload_Routing_Activation_Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payload_Routing_Activation_Response.swift; sourceTree = "<group>"; };
+		B7DCD593231A138900A733B3 /* Payload_Generic_Header_NACK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payload_Generic_Header_NACK.swift; sourceTree = "<group>"; };
+		B7DCD595231A148D00A733B3 /* Payload_Diagnostic_Status_Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payload_Diagnostic_Status_Response.swift; sourceTree = "<group>"; };
+		B7DCD597231A173A00A733B3 /* Payload_Diagnostic_Power_Mode_Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payload_Diagnostic_Power_Mode_Response.swift; sourceTree = "<group>"; };
+		B7DCD599231A18C300A733B3 /* Payload_Diagnostic_Message_Nack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payload_Diagnostic_Message_Nack.swift; sourceTree = "<group>"; };
+		B7DCD59B231A1FC400A733B3 /* Payload_Diagnostic_Message_Ack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payload_Diagnostic_Message_Ack.swift; sourceTree = "<group>"; };
+		B7DCD59D231A204600A733B3 /* Request_Payload_Type_To_Object.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request_Payload_Type_To_Object.swift; sourceTree = "<group>"; };
+		B7DCD59F231A233200A733B3 /* Response_Payload_Type_To_Object.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response_Payload_Type_To_Object.swift; sourceTree = "<group>"; };
+		B7DCD5A1231A26D100A733B3 /* DOIPResponseObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DOIPResponseObject.swift; sourceTree = "<group>"; };
+		B7DCD5A3231A297A00A733B3 /* DOIPFrameParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DOIPFrameParser.swift; sourceTree = "<group>"; };
+		B7DCD5B8231A2FD300A733B3 /* DOIPFrameSynthesizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DOIPFrameSynthesizer.swift; sourceTree = "<group>"; };
+		B7DCD5BB231A3F6B00A733B3 /* TransportLayerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportLayerHelper.swift; sourceTree = "<group>"; };
+		B7DCD5DE231A4D6600A733B3 /* SwiftSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7DCD5E0231A4F5B00A733B3 /* TCPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCPClient.swift; sourceTree = "<group>"; };
+		B7DCD5E3231A502B00A733B3 /* IPEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPEndPoint.swift; sourceTree = "<group>"; };
+		B7DCD5E5231A620300A733B3 /* DOIPSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DOIPSession.swift; sourceTree = "<group>"; };
+		B7DCD5E7231A6E9B00A733B3 /* RecievedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecievedData.swift; sourceTree = "<group>"; };
+		B7DCD5E9231A6F4000A733B3 /* TransportClientConvey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportClientConvey.swift; sourceTree = "<group>"; };
+		B7DCD5EB231AAC0E00A733B3 /* UDPListen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDPListen.swift; sourceTree = "<group>"; };
+		B7DCD5ED231AB7D100A733B3 /* UDPBroadcast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDPBroadcast.swift; sourceTree = "<group>"; };
+		B7DCD5EF231ABC1700A733B3 /* UDPRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDPRequest.swift; sourceTree = "<group>"; };
+		B7DCD5F4231ABD5700A733B3 /* DoIPGenericHeaderHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoIPGenericHeaderHandler.swift; sourceTree = "<group>"; };
+		B7DCD5F6231AC26E00A733B3 /* IDiagState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDiagState.swift; sourceTree = "<group>"; };
+		B7DCD5F8231AC27D00A733B3 /* IDiagStateForSendRecieve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDiagStateForSendRecieve.swift; sourceTree = "<group>"; };
+		B7DCD5FA231AD15B00A733B3 /* VehicleIdentificationDiagState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleIdentificationDiagState.swift; sourceTree = "<group>"; };
+		B7DCD5FC231AD88E00A733B3 /* VehicleIdentificationWithVINDiagState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleIdentificationWithVINDiagState.swift; sourceTree = "<group>"; };
+		B7DCD5FE231AD9E100A733B3 /* VehicleIdentificationWithEIDDiagState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleIdentificationWithEIDDiagState.swift; sourceTree = "<group>"; };
+		B7DCD600231ADAC700A733B3 /* RoutingActivationDiagState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingActivationDiagState.swift; sourceTree = "<group>"; };
+		B7DCD602231AE68400A733B3 /* GenericHeaderNAKDiagState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericHeaderNAKDiagState.swift; sourceTree = "<group>"; };
+		B7DCD604231B6A2700A733B3 /* DoIPEntityStatusDiagState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoIPEntityStatusDiagState.swift; sourceTree = "<group>"; };
+		B7DCD606231B6E3800A733B3 /* DiagPowerModeDiagState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagPowerModeDiagState.swift; sourceTree = "<group>"; };
+		B7DCD608231B6FC000A733B3 /* DiagnosticMessagesDiagState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosticMessagesDiagState.swift; sourceTree = "<group>"; };
+		B7DCD60A231BCC9500A733B3 /* DiagMessagePosACKDiagState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagMessagePosACKDiagState.swift; sourceTree = "<group>"; };
+		B7DCD60C231BCDB000A733B3 /* DiagMessageNAKDiagState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagMessageNAKDiagState.swift; sourceTree = "<group>"; };
+		B7DCD60E231BDEFC00A733B3 /* AliveCheckDiagState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AliveCheckDiagState.swift; sourceTree = "<group>"; };
+		B7DCD610231BF6AD00A733B3 /* DoIPTesterContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoIPTesterContext.swift; sourceTree = "<group>"; };
+		B7DCD612231C162000A733B3 /* DOIPContextConvey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DOIPContextConvey.swift; sourceTree = "<group>"; };
+		B7DCD614231C3A7000A733B3 /* DOIPContextResultConvey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DOIPContextResultConvey.swift; sourceTree = "<group>"; };
+		B7DCD626231CD41100A733B3 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7DCD629231ECE7300A733B3 /* DOIPAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DOIPAccess.swift; sourceTree = "<group>"; };
+		B7DCD62E231FA0AA00A733B3 /* DOIPEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DOIPEntity.swift; sourceTree = "<group>"; };
+		B7DCD630231FA34300A733B3 /* DOIPAccessImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DOIPAccessImplementation.swift; sourceTree = "<group>"; };
+		B7DCD6BD232D0A4500A733B3 /* FourierMachines_Ani_Client_Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FourierMachines_Ani_Client_Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7DCD508231948C000A733B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7DCD6BE232D0A4500A733B3 /* FourierMachines_Ani_Client_Common.framework in Frameworks */,
+				B7DCD627231CD41100A733B3 /* CocoaAsyncSocket.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7DCD511231948C000A733B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7DCD515231948C000A733B3 /* FourierMachines_Ani_Client_BOIP.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7DCD501231948C000A733B3 = {
+			isa = PBXGroup;
+			children = (
+				B7DCD628231ECE5D00A733B3 /* FrameworkImplementation */,
+				B7DCD54223194EBF00A733B3 /* Framework */,
+				B7DCD50D231948C000A733B3 /* FourierMachines.Ani.Client.BOIP */,
+				B7DCD518231948C000A733B3 /* FourierMachines.Ani.Client.BOIPTests */,
+				B7DCD50C231948C000A733B3 /* Products */,
+				B7DCD5DD231A4D6600A733B3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B7DCD50C231948C000A733B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7DCD50B231948C000A733B3 /* FourierMachines_Ani_Client_BOIP.framework */,
+				B7DCD514231948C000A733B3 /* FourierMachines.Ani.Client.BOIPTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7DCD50D231948C000A733B3 /* FourierMachines.Ani.Client.BOIP */ = {
+			isa = PBXGroup;
+			children = (
+				B7DCD50E231948C000A733B3 /* FourierMachines_Ani_Client_BOIP.h */,
+				B7DCD50F231948C000A733B3 /* Info.plist */,
+			);
+			path = FourierMachines.Ani.Client.BOIP;
+			sourceTree = "<group>";
+		};
+		B7DCD518231948C000A733B3 /* FourierMachines.Ani.Client.BOIPTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7DCD519231948C000A733B3 /* FourierMachines_Ani_Client_BOIPTests.swift */,
+				B7DCD51B231948C000A733B3 /* Info.plist */,
+			);
+			path = FourierMachines.Ani.Client.BOIPTests;
+			sourceTree = "<group>";
+		};
+		B7DCD54223194EBF00A733B3 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				B7DCD54323194ECA00A733B3 /* Configuration */,
+				B7DCD54423194ED000A733B3 /* DataTypes */,
+				B7DCD54523194EF200A733B3 /* DOIPFrameHelpers */,
+				B7DCD54623194EFE00A733B3 /* DOIPLayer */,
+				B7DCD54723194F0900A733B3 /* Helpers */,
+				B7DCD54823194F1000A733B3 /* TransportLayer */,
+				B7DCD54923194F1F00A733B3 /* Validation */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		B7DCD54323194ECA00A733B3 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				B7DCD54A23194F3500A733B3 /* DOIP_Configuration.swift */,
+				B7DCD54C231950E600A733B3 /* DOIPParameters.swift */,
+			);
+			name = Configuration;
+			sourceTree = "<group>";
+		};
+		B7DCD54423194ED000A733B3 /* DataTypes */ = {
+			isa = PBXGroup;
+			children = (
+				B7DCD5E2231A501600A733B3 /* Extras */,
+				B7DCD54E2319571500A733B3 /* DOIP_OBJECTS */,
+				B7DCD54F2319571F00A733B3 /* PAYLOAD_OBJECTS */,
+				B7DCD5502319572B00A733B3 /* PAYLOAD_TYPE_OBJECT_MAP */,
+				B7DCD5512319573700A733B3 /* PAYLOAD_TYPES */,
+				B7DCD5532319576900A733B3 /* ADDRESSING_TYPES.swift */,
+			);
+			name = DataTypes;
+			sourceTree = "<group>";
+		};
+		B7DCD54523194EF200A733B3 /* DOIPFrameHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				B7DCD5A3231A297A00A733B3 /* DOIPFrameParser.swift */,
+				B7DCD5B8231A2FD300A733B3 /* DOIPFrameSynthesizer.swift */,
+			);
+			name = DOIPFrameHelpers;
+			sourceTree = "<group>";
+		};
+		B7DCD54623194EFE00A733B3 /* DOIPLayer */ = {
+			isa = PBXGroup;
+			children = (
+				B7DCD5F1231ABD0200A733B3 /* DOIPStateMachines */,
+				B7DCD5F4231ABD5700A733B3 /* DoIPGenericHeaderHandler.swift */,
+				B7DCD5E5231A620300A733B3 /* DOIPSession.swift */,
+			);
+			name = DOIPLayer;
+			sourceTree = "<group>";
+		};
+		B7DCD54723194F0900A733B3 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		B7DCD54823194F1000A733B3 /* TransportLayer */ = {
+			isa = PBXGroup;
+			children = (
+				B7DCD5BA231A3F5A00A733B3 /* Helpers */,
+				B7DCD5E0231A4F5B00A733B3 /* TCPClient.swift */,
+				B7DCD5EB231AAC0E00A733B3 /* UDPListen.swift */,
+				B7DCD5ED231AB7D100A733B3 /* UDPBroadcast.swift */,
+				B7DCD5EF231ABC1700A733B3 /* UDPRequest.swift */,
+			);
+			name = TransportLayer;
+			sourceTree = "<group>";
+		};
+		B7DCD54923194F1F00A733B3 /* Validation */ = {
+			isa = PBXGroup;
+			children = (
+				B7DCD580231989BC00A733B3 /* interface */,
+				B7DCD55D23195EE800A733B3 /* ValidationRuleMessage.swift */,
+				B7DCD55F23195F0C00A733B3 /* STATUS_CODES.swift */,
+				B7DCD57E231988AB00A733B3 /* ValidationRuleMessages.swift */,
+			);
+			name = Validation;
+			sourceTree = "<group>";
+		};
+		B7DCD54E2319571500A733B3 /* DOIP_OBJECTS */ = {
+			isa = PBXGroup;
+			children = (
+				B7DCD5552319582E00A733B3 /* DOIPRequestObject.swift */,
+				B7DCD5A1231A26D100A733B3 /* DOIPResponseObject.swift */,
+				B7DCD62E231FA0AA00A733B3 /* DOIPEntity.swift */,
+			);
+			name = DOIP_OBJECTS;
+			sourceTree = "<group>";
+		};
+		B7DCD54F2319571F00A733B3 /* PAYLOAD_OBJECTS */ = {
+			isa = PBXGroup;
+			children = (
+				B7DCD5612319623F00A733B3 /* PAYLOAD_OBJECT_ECU_RESPONSE */,
+				B7DCD5622319625000A733B3 /* PAYLOAD_OBJECT_TESTER_REQUEST */,
+				B7DCD58523199C1200A733B3 /* Payload_Diagnostic_Message.swift */,
+				B7DCD58323198DE600A733B3 /* Payload_Item_Type.swift */,
+				B7DCD55B23195E9200A733B3 /* PayloadObject.swift */,
+			);
+			name = PAYLOAD_OBJECTS;
+			sourceTree = "<group>";
+		};
+		B7DCD5502319572B00A733B3 /* PAYLOAD_TYPE_OBJECT_MAP */ = {
+			isa = PBXGroup;
+			children = (
+				B7DCD59D231A204600A733B3 /* Request_Payload_Type_To_Object.swift */,
+				B7DCD59F231A233200A733B3 /* Response_Payload_Type_To_Object.swift */,
+			);
+			name = PAYLOAD_TYPE_OBJECT_MAP;
+			sourceTree = "<group>";
+		};
+		B7DCD5512319573700A733B3 /* PAYLOAD_TYPES */ = {
+			isa = PBXGroup;
+			children = (
+				B7DCD557231958F900A733B3 /* Request_Payload_Types.swift */,
+				B7DCD5592319590A00A733B3 /* Response_Payload_Types.swift */,
+			);
+			name = PAYLOAD_TYPES;
+			sourceTree = "<group>";
+		};
+		B7DCD5612319623F00A733B3 /* PAYLOAD_OBJECT_ECU_RESPONSE */ = {
+			isa = PBXGroup;
+			children = (
+				B7DCD5632319626200A733B3 /* ECU_VALUE_CODES */,
+				B7DCD59B231A1FC400A733B3 /* Payload_Diagnostic_Message_Ack.swift */,
+				B7DCD599231A18C300A733B3 /* Payload_Diagnostic_Message_Nack.swift */,
+				B7DCD597231A173A00A733B3 /* Payload_Diagnostic_Power_Mode_Response.swift */,
+				B7DCD595231A148D00A733B3 /* Payload_Diagnostic_Status_Response.swift */,
+				B7DCD593231A138900A733B3 /* Payload_Generic_Header_NACK.swift */,
+				B7DCD591231A114600A733B3 /* Payload_Routing_Activation_Response.swift */,
+				B7DCD58F2319AD6900A733B3 /* Payload_Vehicle_Announcement.swift */,
+			);
+			name = PAYLOAD_OBJECT_ECU_RESPONSE;
+			sourceTree = "<group>";
+		};
+		B7DCD5622319625000A733B3 /* PAYLOAD_OBJECT_TESTER_REQUEST */ = {
+			isa = PBXGroup;
+			children = (
+				B7DCD5642319626B00A733B3 /* TESTER_CODE_VALUES */,
+				B7DCD5872319A51D00A733B3 /* Payload_Vehicle_Request_VIN.swift */,
+				B7DCD5892319A5B400A733B3 /* Payload_Vehicle_Request_EID.swift */,
+				B7DCD58B2319A5F300A733B3 /* Payload_Routing_Activation_Request.swift */,
+				B7DCD58D2319AABE00A733B3 /* Payload_Alive_Check_Response.swift */,
+			);
+			name = PAYLOAD_OBJECT_TESTER_REQUEST;
+			sourceTree = "<group>";
+		};
+		B7DCD5632319626200A733B3 /* ECU_VALUE_CODES */ = {
+			isa = PBXGroup;
+			children = (
+				B7DCD56B231968E500A733B3 /* Activation_Response_Codes.swift */,
+				B7DCD56D23196ABA00A733B3 /* Diagnostic_ACK_Code.swift */,
+				B7DCD56F23196B7C00A733B3 /* Diagnostic_NAK_Codes.swift */,
+				B7DCD57123196CAF00A733B3 /* Diagnostic_Power_Mode_Values.swift */,
+				B7DCD57323196D9400A733B3 /* DOIP_Status_Node_Type.swift */,
+				B7DCD5672319654D00A733B3 /* Vehicle_Announce_Further_Actions.swift */,
+				B7DCD57523196E5300A733B3 /* NAK_Codes.swift */,
+			);
+			name = ECU_VALUE_CODES;
+			sourceTree = "<group>";
+		};
+		B7DCD5642319626B00A733B3 /* TESTER_CODE_VALUES */ = {
+			isa = PBXGroup;
+			children = (
+				B7DCD565231962A700A733B3 /* Activation_Request_Types.swift */,
+				B7DCD569231967AD00A733B3 /* Vehicle_Identification_Types.swift */,
+			);
+			name = TESTER_CODE_VALUES;
+			sourceTree = "<group>";
+		};
+		B7DCD580231989BC00A733B3 /* interface */ = {
+			isa = PBXGroup;
+			children = (
+				B7DCD581231989C800A733B3 /* IValidation.swift */,
+			);
+			name = interface;
+			sourceTree = "<group>";
+		};
+		B7DCD5BA231A3F5A00A733B3 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B7DCD5BB231A3F6B00A733B3 /* TransportLayerHelper.swift */,
+				B7DCD5E7231A6E9B00A733B3 /* RecievedData.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		B7DCD5DD231A4D6600A733B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7DCD6BD232D0A4500A733B3 /* FourierMachines_Ani_Client_Common.framework */,
+				B7DCD626231CD41100A733B3 /* CocoaAsyncSocket.framework */,
+				B7DCD5DE231A4D6600A733B3 /* SwiftSocket.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7DCD5E2231A501600A733B3 /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				B7DCD5E3231A502B00A733B3 /* IPEndPoint.swift */,
+				B7DCD5E9231A6F4000A733B3 /* TransportClientConvey.swift */,
+				B7DCD612231C162000A733B3 /* DOIPContextConvey.swift */,
+				B7DCD614231C3A7000A733B3 /* DOIPContextResultConvey.swift */,
+			);
+			name = Extras;
+			sourceTree = "<group>";
+		};
+		B7DCD5F1231ABD0200A733B3 /* DOIPStateMachines */ = {
+			isa = PBXGroup;
+			children = (
+				B7DCD5F2231ABD0D00A733B3 /* DiagStates */,
+				B7DCD5F3231ABD1600A733B3 /* interface */,
+				B7DCD610231BF6AD00A733B3 /* DoIPTesterContext.swift */,
+			);
+			name = DOIPStateMachines;
+			sourceTree = "<group>";
+		};
+		B7DCD5F2231ABD0D00A733B3 /* DiagStates */ = {
+			isa = PBXGroup;
+			children = (
+				B7DCD60E231BDEFC00A733B3 /* AliveCheckDiagState.swift */,
+				B7DCD60C231BCDB000A733B3 /* DiagMessageNAKDiagState.swift */,
+				B7DCD60A231BCC9500A733B3 /* DiagMessagePosACKDiagState.swift */,
+				B7DCD608231B6FC000A733B3 /* DiagnosticMessagesDiagState.swift */,
+				B7DCD606231B6E3800A733B3 /* DiagPowerModeDiagState.swift */,
+				B7DCD604231B6A2700A733B3 /* DoIPEntityStatusDiagState.swift */,
+				B7DCD602231AE68400A733B3 /* GenericHeaderNAKDiagState.swift */,
+				B7DCD600231ADAC700A733B3 /* RoutingActivationDiagState.swift */,
+				B7DCD5FA231AD15B00A733B3 /* VehicleIdentificationDiagState.swift */,
+				B7DCD5FE231AD9E100A733B3 /* VehicleIdentificationWithEIDDiagState.swift */,
+				B7DCD5FC231AD88E00A733B3 /* VehicleIdentificationWithVINDiagState.swift */,
+			);
+			name = DiagStates;
+			sourceTree = "<group>";
+		};
+		B7DCD5F3231ABD1600A733B3 /* interface */ = {
+			isa = PBXGroup;
+			children = (
+				B7DCD5F6231AC26E00A733B3 /* IDiagState.swift */,
+				B7DCD5F8231AC27D00A733B3 /* IDiagStateForSendRecieve.swift */,
+			);
+			name = interface;
+			sourceTree = "<group>";
+		};
+		B7DCD628231ECE5D00A733B3 /* FrameworkImplementation */ = {
+			isa = PBXGroup;
+			children = (
+				B7DCD629231ECE7300A733B3 /* DOIPAccess.swift */,
+				B7DCD630231FA34300A733B3 /* DOIPAccessImplementation.swift */,
+			);
+			name = FrameworkImplementation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B7DCD506231948C000A733B3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7DCD51C231948C000A733B3 /* FourierMachines_Ani_Client_BOIP.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B7DCD50A231948C000A733B3 /* FourierMachines.Ani.Client.BOIP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7DCD51F231948C000A733B3 /* Build configuration list for PBXNativeTarget "FourierMachines.Ani.Client.BOIP" */;
+			buildPhases = (
+				B7DCD506231948C000A733B3 /* Headers */,
+				B7DCD507231948C000A733B3 /* Sources */,
+				B7DCD508231948C000A733B3 /* Frameworks */,
+				B7DCD509231948C000A733B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FourierMachines.Ani.Client.BOIP;
+			productName = FourierMachines.Ani.Client.BOIP;
+			productReference = B7DCD50B231948C000A733B3 /* FourierMachines_Ani_Client_BOIP.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B7DCD513231948C000A733B3 /* FourierMachines.Ani.Client.BOIPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7DCD522231948C000A733B3 /* Build configuration list for PBXNativeTarget "FourierMachines.Ani.Client.BOIPTests" */;
+			buildPhases = (
+				B7DCD510231948C000A733B3 /* Sources */,
+				B7DCD511231948C000A733B3 /* Frameworks */,
+				B7DCD512231948C000A733B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7DCD517231948C000A733B3 /* PBXTargetDependency */,
+			);
+			name = FourierMachines.Ani.Client.BOIPTests;
+			productName = FourierMachines.Ani.Client.BOIPTests;
+			productReference = B7DCD514231948C000A733B3 /* FourierMachines.Ani.Client.BOIPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7DCD502231948C000A733B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = FourierMachines;
+				TargetAttributes = {
+					B7DCD50A231948C000A733B3 = {
+						CreatedOnToolsVersion = 10.2;
+						LastSwiftMigration = 1020;
+					};
+					B7DCD513231948C000A733B3 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = B7DCD505231948C000A733B3 /* Build configuration list for PBXProject "FourierMachines.Ani.Client.BOIP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7DCD501231948C000A733B3;
+			productRefGroup = B7DCD50C231948C000A733B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7DCD50A231948C000A733B3 /* FourierMachines.Ani.Client.BOIP */,
+				B7DCD513231948C000A733B3 /* FourierMachines.Ani.Client.BOIPTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7DCD509231948C000A733B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7DCD512231948C000A733B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7DCD507231948C000A733B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7DCD54B23194F3500A733B3 /* DOIP_Configuration.swift in Sources */,
+				B7DCD631231FA34300A733B3 /* DOIPAccessImplementation.swift in Sources */,
+				B7DCD5682319654D00A733B3 /* Vehicle_Announce_Further_Actions.swift in Sources */,
+				B7DCD59E231A204600A733B3 /* Request_Payload_Type_To_Object.swift in Sources */,
+				B7DCD558231958F900A733B3 /* Request_Payload_Types.swift in Sources */,
+				B7DCD57623196E5300A733B3 /* NAK_Codes.swift in Sources */,
+				B7DCD592231A114600A733B3 /* Payload_Routing_Activation_Response.swift in Sources */,
+				B7DCD5EA231A6F4000A733B3 /* TransportClientConvey.swift in Sources */,
+				B7DCD54D231950E600A733B3 /* DOIPParameters.swift in Sources */,
+				B7DCD594231A138900A733B3 /* Payload_Generic_Header_NACK.swift in Sources */,
+				B7DCD5E8231A6E9B00A733B3 /* RecievedData.swift in Sources */,
+				B7DCD5F0231ABC1700A733B3 /* UDPRequest.swift in Sources */,
+				B7DCD55C23195E9200A733B3 /* PayloadObject.swift in Sources */,
+				B7DCD601231ADAC700A733B3 /* RoutingActivationDiagState.swift in Sources */,
+				B7DCD60B231BCC9500A733B3 /* DiagMessagePosACKDiagState.swift in Sources */,
+				B7DCD58623199C1200A733B3 /* Payload_Diagnostic_Message.swift in Sources */,
+				B7DCD57423196D9400A733B3 /* DOIP_Status_Node_Type.swift in Sources */,
+				B7DCD57223196CAF00A733B3 /* Diagnostic_Power_Mode_Values.swift in Sources */,
+				B7DCD582231989C800A733B3 /* IValidation.swift in Sources */,
+				B7DCD5E4231A502B00A733B3 /* IPEndPoint.swift in Sources */,
+				B7DCD5E6231A620300A733B3 /* DOIPSession.swift in Sources */,
+				B7DCD5F9231AC27D00A733B3 /* IDiagStateForSendRecieve.swift in Sources */,
+				B7DCD58A2319A5B400A733B3 /* Payload_Vehicle_Request_EID.swift in Sources */,
+				B7DCD5FF231AD9E100A733B3 /* VehicleIdentificationWithEIDDiagState.swift in Sources */,
+				B7DCD5B9231A2FD300A733B3 /* DOIPFrameSynthesizer.swift in Sources */,
+				B7DCD5EC231AAC0E00A733B3 /* UDPListen.swift in Sources */,
+				B7DCD613231C162000A733B3 /* DOIPContextConvey.swift in Sources */,
+				B7DCD58C2319A5F300A733B3 /* Payload_Routing_Activation_Request.swift in Sources */,
+				B7DCD5E1231A4F5B00A733B3 /* TCPClient.swift in Sources */,
+				B7DCD60F231BDEFC00A733B3 /* AliveCheckDiagState.swift in Sources */,
+				B7DCD59A231A18C300A733B3 /* Payload_Diagnostic_Message_Nack.swift in Sources */,
+				B7DCD56023195F0C00A733B3 /* STATUS_CODES.swift in Sources */,
+				B7DCD56C231968E500A733B3 /* Activation_Response_Codes.swift in Sources */,
+				B7DCD605231B6A2700A733B3 /* DoIPEntityStatusDiagState.swift in Sources */,
+				B7DCD5F7231AC26E00A733B3 /* IDiagState.swift in Sources */,
+				B7DCD5EE231AB7D100A733B3 /* UDPBroadcast.swift in Sources */,
+				B7DCD58423198DE600A733B3 /* Payload_Item_Type.swift in Sources */,
+				B7DCD609231B6FC000A733B3 /* DiagnosticMessagesDiagState.swift in Sources */,
+				B7DCD59C231A1FC500A733B3 /* Payload_Diagnostic_Message_Ack.swift in Sources */,
+				B7DCD598231A173A00A733B3 /* Payload_Diagnostic_Power_Mode_Response.swift in Sources */,
+				B7DCD5A2231A26D100A733B3 /* DOIPResponseObject.swift in Sources */,
+				B7DCD603231AE68400A733B3 /* GenericHeaderNAKDiagState.swift in Sources */,
+				B7DCD57F231988AB00A733B3 /* ValidationRuleMessages.swift in Sources */,
+				B7DCD5A4231A297A00A733B3 /* DOIPFrameParser.swift in Sources */,
+				B7DCD56A231967AD00A733B3 /* Vehicle_Identification_Types.swift in Sources */,
+				B7DCD5882319A51D00A733B3 /* Payload_Vehicle_Request_VIN.swift in Sources */,
+				B7DCD5FB231AD15B00A733B3 /* VehicleIdentificationDiagState.swift in Sources */,
+				B7DCD58E2319AABE00A733B3 /* Payload_Alive_Check_Response.swift in Sources */,
+				B7DCD607231B6E3800A733B3 /* DiagPowerModeDiagState.swift in Sources */,
+				B7DCD566231962A700A733B3 /* Activation_Request_Types.swift in Sources */,
+				B7DCD596231A148D00A733B3 /* Payload_Diagnostic_Status_Response.swift in Sources */,
+				B7DCD5BC231A3F6B00A733B3 /* TransportLayerHelper.swift in Sources */,
+				B7DCD62F231FA0AA00A733B3 /* DOIPEntity.swift in Sources */,
+				B7DCD611231BF6AD00A733B3 /* DoIPTesterContext.swift in Sources */,
+				B7DCD55A2319590A00A733B3 /* Response_Payload_Types.swift in Sources */,
+				B7DCD60D231BCDB000A733B3 /* DiagMessageNAKDiagState.swift in Sources */,
+				B7DCD5562319582E00A733B3 /* DOIPRequestObject.swift in Sources */,
+				B7DCD5F5231ABD5700A733B3 /* DoIPGenericHeaderHandler.swift in Sources */,
+				B7DCD56E23196ABA00A733B3 /* Diagnostic_ACK_Code.swift in Sources */,
+				B7DCD62A231ECE7300A733B3 /* DOIPAccess.swift in Sources */,
+				B7DCD55E23195EE800A733B3 /* ValidationRuleMessage.swift in Sources */,
+				B7DCD5FD231AD88E00A733B3 /* VehicleIdentificationWithVINDiagState.swift in Sources */,
+				B7DCD5902319AD6900A733B3 /* Payload_Vehicle_Announcement.swift in Sources */,
+				B7DCD615231C3A7000A733B3 /* DOIPContextResultConvey.swift in Sources */,
+				B7DCD5A0231A233200A733B3 /* Response_Payload_Type_To_Object.swift in Sources */,
+				B7DCD5542319576900A733B3 /* ADDRESSING_TYPES.swift in Sources */,
+				B7DCD57023196B7C00A733B3 /* Diagnostic_NAK_Codes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7DCD510231948C000A733B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7DCD51A231948C000A733B3 /* FourierMachines_Ani_Client_BOIPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7DCD517231948C000A733B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7DCD50A231948C000A733B3 /* FourierMachines.Ani.Client.BOIP */;
+			targetProxy = B7DCD516231948C000A733B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B7DCD51D231948C000A733B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B7DCD51E231948C000A733B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B7DCD520231948C000A733B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2WTB6PH23C;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FourierMachines.Ani.Client.BOIP/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FourierMachines.AniStudio.FourierMachines-Ani-Client-BOIP";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7DCD521231948C000A733B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2WTB6PH23C;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FourierMachines.Ani.Client.BOIP/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FourierMachines.AniStudio.FourierMachines-Ani-Client-BOIP";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B7DCD523231948C000A733B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2WTB6PH23C;
+				INFOPLIST_FILE = FourierMachines.Ani.Client.BOIPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FourierMachines.AniStudio.FourierMachines-Ani-Client-BOIPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7DCD524231948C000A733B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2WTB6PH23C;
+				INFOPLIST_FILE = FourierMachines.Ani.Client.BOIPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FourierMachines.AniStudio.FourierMachines-Ani-Client-BOIPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7DCD505231948C000A733B3 /* Build configuration list for PBXProject "FourierMachines.Ani.Client.BOIP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7DCD51D231948C000A733B3 /* Debug */,
+				B7DCD51E231948C000A733B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7DCD51F231948C000A733B3 /* Build configuration list for PBXNativeTarget "FourierMachines.Ani.Client.BOIP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7DCD520231948C000A733B3 /* Debug */,
+				B7DCD521231948C000A733B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7DCD522231948C000A733B3 /* Build configuration list for PBXNativeTarget "FourierMachines.Ani.Client.BOIPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7DCD523231948C000A733B3 /* Debug */,
+				B7DCD524231948C000A733B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7DCD502231948C000A733B3 /* Project object */;
+}

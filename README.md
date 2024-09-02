@@ -1,2 +1,7 @@
-# ani_b_emulator_ipad
-This repositor contains an ipad app with an emulator for animation design of ani_b
+# An emulator app for Ani-B project
+=====================================
+
+**Introduction**
+---------------
+
+Welcome to the **A.n.i B** emulator project. This project contains draft source code for an ipad emulator app for ani_b.
